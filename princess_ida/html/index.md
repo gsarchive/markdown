@@ -77,6 +77,10 @@ surrenders to her Prince.
 * [**A historical overview of Ida recordings**](http://gasdisc.oakapplepress.com/ida-walt1.htm) through the years,
   by the late Michael Walters.
 
+</article>
+</section>
+
+<section>
 <table width="80%" border="0" align="center" cellpadding="0" cellspacing="5" class="linkstab">
             <tr>
               <td width="30%" align="center"><img src="../graphics/web_op.gif" alt="To Web Opera" width="120" height="120"></td>
@@ -87,68 +91,63 @@ surrenders to her Prince.
                 D'Oyly Carte Opera Company Productions </p></td>
             </tr>
           </table>
+</section>
 
-<ul>
-              <li><strong>Recordings:</strong>
-                <ul>
-                  <li><a href="http://www.archive.org/details/lp-31449_BeG" target="_blank"><strong>1924 HMV D'Oyly Carte Recording</strong></a> [from the Internet Archive] </li>
-                  <li><a href="https://archive.org/details/GILBERTSULLIVANPrincessIda1932-NEWTRANSFER" target="_blank"><strong>1932 D'Oyly Carte HMV recording</strong></a> [from the Internet Archive] </li>
-                  <li><a href="https://archive.org/details/GILBERTSULLIVANPrincessIda1955-NEWTRANSFER" target="_blank"><strong>1955 D'Oyly Carte Decca Recording</strong></a> [from the Internet Archive] </li>
-                  <li><a href="https://archive.org/details/cd_princess-ida-pineapple-poll_gilbert-sullivan-the-doyly-carte-opera-com" target="_blank"><strong>1965 D'Oyly Carte Decca Recording</strong></a><strong> </strong>[from the Internet Archive]</li>
-                </ul>
-              </li>
-              <li><a href="score_errata.html"><strong>Score errata</strong></a>. Steven Lichtenstein has compiled a list of errata in two editions of the Chappell vocal score. </li>
-              <li><a href="http://www.musicalsolutions.com" target="_blank"><b>Musical Solutions &#151; G&amp;S MIDI Rehearsal Files </b></a> &#8212; David Cookson's site includes MIDI rehearsal files for all the G&amp;S Operas, plus Cox and Box and Haddon Hall. </li>
-            </ul>
-
-</article>
+<section markdown=1>
+* **Recordings:**
+  - [**1924 HMV D'Oyly Carte Recording**](http://www.archive.org/details/lp-31449_BeG) [from the Internet Archive]
+  - [**1932 D'Oyly Carte HMV recording**](https://archive.org/details/GILBERTSULLIVANPrincessIda1932-NEWTRANSFER) [from the Internet Archive]
+  - [**1955 D'Oyly Carte Decca Recording**](https://archive.org/details/GILBERTSULLIVANPrincessIda1955-NEWTRANSFER) [from the Internet Archive]
+  - [**1965 D'Oyly Carte Decca Recording**](https://archive.org/details/cd_princess-ida-pineapple-poll_gilbert-sullivan-the-doyly-carte-opera-com) [from the Internet Archive]
+* [**Score errata**](score_errata.html). Steven Lichtenstein has compiled a list of errata in two editions
+  of the Chappell vocal score.
+* [**Musical Solutions &endash; G&S MIDI Rehearsal Files**](http://www.musicalsolutions.com) - David Cookson's site includes MIDI rehearsal files for all the G&S Operas, plus Cox and Box and Haddon Hall.
+</section>
 
 ## Early Productions
 
-            <ul>
-              <li><a href="cast.html"><strong>First Night Cast</strong></a></li>
-              <li><strong><a href="times84.html">First Night Review</a></strong> from <em>The Times</em>, 7 January 1884 </li>
-              <li><strong>Programmes from the original production:</strong></li>
-            </ul>
-            <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
-              <tr>
-                <td width="33%" align="center"><a href="../programmes/prog_1/ida_prog_1.html"><img src="../programmes/prog_1/ida_1a_s.jpg" alt="Programme" width="101" height="153" border="2"></a></td>
-                <td width="33%" align="center"><a href="../programmes/prog_2/pi_prog_2.html"><img src="../programmes/prog_2/ida_2a_s.jpg" alt="Programme" width="200" height="158" border="2"></a></td>
-                <td width="33%" align="center"><a href="../programmes/prog_3/pi3_index.html"><img src="../programmes/prog_3/001_index.jpg" alt="Programme" width="98" height="153" border="2"></a></td>
-              </tr>
-            </table>
-            <ul>
-              <li>A chapter on <i>Princess Ida</i> from the book <a href="../../books/walbrook/chap9.html" target="_blank">&quot;Gilbert and Sullivan Opera, A History and a Comment&quot;</a>, by H. M. Walbrook, published in London in 1922.</li>
-            </ul>
+* [**First Night Cast**](cast.html)
+* [**First Night Review**](times84.html) from _The Times_, 7 January 1884
+* **Programmes from the original production:**
+  <div class=imagebox>
+    <a href="../programmes/prog_1/ida_prog_1.html"><img src="../programmes/prog_1/ida_1a_s.jpg" alt="Programme" width="101" height="153" border="2"></a>
+    <a href="../programmes/prog_2/pi_prog_2.html"><img src="../programmes/prog_2/ida_2a_s.jpg" alt="Programme" width="200" height="158" border="2"></a>
+    <a href="../programmes/prog_3/pi3_index.html"><img src="../programmes/prog_3/001_index.jpg" alt="Programme" width="98" height="153" border="2"></a>
+  </div>
+* A chapter on _Princess Ida_ from the book ["Gilbert and Sullivan Opera, A History and a Comment"](../../books/walbrook/chap9.html),
+  by H. M. Walbrook, published in London in 1922.
 
 ## 1954 Revival
 
-            <ul>
-              <li>Reviews, pictures and cast list of the <a href="../1954/pi_54.html">1954
-                D'Oyly Carte production</a> staged at the Savoy theatre on 27 September
-                1954.</li>
-            </ul>
+* Reviews, pictures and cast list of the [1954 D'Oyly Carte production](../1954/pi_54.html) staged
+  at the Savoy theatre on 27 September 1954.
 
 ## Art
-          <ul>
-            <li><a href="../bab/bab.html">Bab drawings</a> illustrating
-              Princess Ida. Scanned graphics files of Gilbert's own drawings</li>
-            <li><a href="../music_covers/index.html">Illustrated Music Covers</a></li>
-            <li><a href="../flint/gallery_index.html">Eight watercolors by W. Russell Flint</a>.</li>
-            </ul>
+
+* [Bab drawings](../bab/bab.html) illustrating Princess Ida. Scanned graphics files of Gilbert's own drawings.
+* [Illustrated Music Covers](../music_covers/index.html)
+* [Eight watercolors by W. Russell Flint](../flint/gallery_index.html).
 
 ## The Prototypes: Tennyson's Poem and Gilbert's Play
 
-          <ul>
-            <li><strong>Tennyson's poem <a href="../../gilbert/plays/princess/tennyson/index.htm" target="_blank"><em>The Princess</em></a>,</strong> which was the basis for Gilbert's 1870 play <i><a href="../../gilbert/plays/princess/princess_home.html" target="_blank">The Princess.</a></i></li>
-            <li><strong>Gilbert's 1870 play with music <a href="../../gilbert/plays/princess/princess_home.html"><em>The Princess</em></a>,</strong> from which <i>Princess Ida</i> was derived.</li>
-            <li><a href="tentogilbert.html"><strong>From Tennyson to Gilbert.</strong></a> David Fidler has compared Tennyson's poem <em>The Princess</em> with Gilbert's <em>Princess Ida</em> and shown how Gilbert modified Tennyson's ideas and characters when making his operatic perversion of the Poet Laureate's original.</li>
-            <li><span class="tlyric"><a href="file:///C|/Users/User/Desktop/html/contributors.html#shepherd"><strong>Comparative edition of the</strong></a><strong><a href="../parallel-A4.zip"><em> Princess Ida </em>and<em> Princess</em></a> </strong></a>prepared by<a href="file:///C|/Users/User/Desktop/html/contributors.html#shepherd"> Marc Shepherd</a>[Zipped Word Document, 88KB] with the text of <i>The Princess</i> on the left side of the page, that of <i>Princess Ida</i> on the right. Where Gilbert deleted material in the transition from play to opera, the right side of the page is blank. Where Gilbert added material to the opera, the left side is blank. Where there is writing on both sides of the page, you can readily see how Gilbert modified (and, in most cases, improved upon) the dialogue from his earlier play.</span></li>
-            </ul>
+* **Tennyson's poem [_The Princess_](../../gilbert/plays/princess/tennyson/index.htm),** which
+  was the basis for Gilbert's 1870 play [_The Princess_](../../gilbert/plays/princess/princess_home.html).
+* **Gilbert's 1870 play with music [_The Princess_](../../gilbert/plays/princess/princess_home.html),** from
+  which _Princess Ida_ was derived.
+* [**From Tennyson to Gilbert.**](tentogilbert.html) David Fidler has compared Tennyson's poem
+  _The Princess_ with Gilbert's _Princess Ida_ and shown how Gilbert modified Tennyson's ideas
+  and characters when making his operatic perversion of the Poet Laureate's original.
+* **Comparative edition of [_The Princess_ and _Princess Ida_](../parallel-A4.zip)** prepared by
+  [Marc Shepherd](/html/contributors.html#shepherd) [Zipped Word Document, 88KB] with the text of
+  _The Princess_ on the left side of the page, that of _Princess Ida_ on the right. Where Gilbert
+  deleted material in the transition from play to opera, the right side of the page is blank.
+  Where Gilbert added material to the opera, the left side is blank. Where there is writing on
+  both sides of the page, you can readily see how Gilbert modified (and, in most cases, improved
+  upon) the dialogue from his earlier play.
 
 ## Discussion
 
-          <ul>
-            <li><span class="tlyric">Transcript of a <a href="../discussion/discuss_home.html">discussion of <i>Princess Ida</i></a> by members of the SavoyNet distribution list. This extensive discussion provides substantial background information on this opera, and is a must for anyone wanting to understand it better, produce it, or perform in it. Compiled by <a href="file:///C|/Users/User/Desktop/html/contributors.html#mankowski">Sarah Mankowski</a>.</span></li>
-          </ul></td>
-        </tr>
+* Transcript of a [discussion of _Princess Ida_](../discussion/discuss_home.html) by members of
+  the SavoyNet distribution list. This extensive discussion provides substantial background
+  information on this opera, and is a must for anyone wanting to understand it better, produce
+  it, or perform in it. Compiled by [Sarah Mankowski](/html/contributors.html#mankowski).
