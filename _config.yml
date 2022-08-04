@@ -1,0 +1,7 @@
+#destination: ../public_html/
+#keep_files: [.]
+exclude:
+- README.md
+- Gemfile*
+- build.py
+theme: null
