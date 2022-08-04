@@ -1,0 +1,163 @@
+/* Ultimately, put these styles into gsarchive.css and don't have directory-specific styles */
+* {box-sizing: border-box;}
+main {
+	max-width: 700px;
+	border: 10px solid #cece9c;
+	border-radius: 10px;
+	margin: auto;
+}
+
+header {
+	width: 750px;
+	border: 12px ridge #CECE9C;
+	display: flex;
+}
+header > * {
+	display: block;
+}
+section {
+	display: flex;
+}
+
+/* The below styles are retained from princess_ida/ida.css */
+body {
+	width: 100vw;
+	background-image: url(graphics/back.jpg);
+	background-color: #DFC8BA;
+	background-attachment: fixed;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-indent: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #7E2929;
+	text-align: center;
+}
+.date {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.smallcaps {
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+
+
+
+.author {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFCC;
+}
+
+
+.menuitem {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+.here {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+}
+
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #000000;
+}
+
+a:link {
+	color: #3300CC;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #424200;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+}
+.part {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #660033;
+}
+.rubric {
+	color: #660033;
+	font-weight: bolder;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.linkstab {
+	border: 6px double #CECE9C;
+}
+
+.smallprint {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.continuation {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.subhead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #660033;
+}
+.tdgold {
+	background-color: #CECE9C;
+}
+.tdcream {
+	background-color: #FFFFE7;
+}
+.masthead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #FFFFCC;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: 0px;
+}
+.midilist {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+.linksframe {
+	border: 7px groove #CC9933;
+}

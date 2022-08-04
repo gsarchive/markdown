@@ -63,23 +63,21 @@ surrenders to her Prince.
 
 ## The Music
 
-            <ul>
-              <li><strong><a href="http://www.lulu.com/shop/gilbert-w-s-and-sullivan-arthur/princess-ida/paperback/product-21166780.html">Vocal Score</a></strong> The Gilbert and Sullivan Archive Edition,  including  dialogue which has been successfully used by NYGASP and many amateur groups. Proceeds from the sale of this score allow the Gilbert and Sullivan Archive to continue as a free resource.</li>
-              <li><strong>PDF</strong> of an early 20th century <a href="../pi_vocalscore.pdf" target="_blank">Chappell Vocal Score</a> [9.84MB] </li>
-              <li><a href="ida_scores.html"><strong>Other Sources</strong> of <em>Princess Ida</em> Scores</a>.</li>
-              <li><strong>Dance Arrangements</strong>
-                <ul>
-                  <li><a href="../dance_arr/pi_lance.pdf" target="_blank">Lancers</a> (arr. Charles Coote)</li>
-                  <li> <a href="../dance_arr/pi_polka.pdf" target="_blank">Polka </a>(arr. P. Bucalossi)</li>
-                  <li> <a href="../dance_arr/pi_quad.pdf" target="_blank">Quadrille</a> (arr. P. Bucalossi)</li>
-                  <li> <a href="../dance_arr/pi_waltz.pdf" target="_blank">Waltz </a>(arr. P. Bucalossi) </li>
-                </ul>
-              </li>
-              <li><a href="http://gasdisc.oakapplepress.com/ida.htm" target="_blank"><strong>Discography:</strong></a> Marc Shepherd's Princess Ida Discography</li>
-              <li><b><a href="http://gasdisc.oakapplepress.com/ida-walt1.htm" target="_blank">A historical overview of Ida recordings</a></b> through the years, by the late Michael Walters. </li>
-          </ul>
+* [**Vocal Score**](http://www.lulu.com/shop/gilbert-w-s-and-sullivan-arthur/princess-ida/paperback/product-21166780.html)
+  The Gilbert and Sullivan Archive Edition, including dialogue which has been successfully used by NYGASP and many amateur
+  groups. Proceeds from the sale of this score allow the Gilbert and Sullivan Archive to continue as a free resource.
+* **PDF** of an early 20th century [Chappell Vocal Score](../pi_vocalscore.pdf) [9.84MB]
+* [**Other Sources** of _Princess Ida_ Scores](ida_scores.html).
+* **Dance Arrangements**
+  - [Lancers](../dance_arr/pi_lance.pdf) (arr. Charles Coote)
+  - [Polka](../dance_arr/pi_polka.pdf) (arr. P. Bucalossi)
+  - [Quadrille](../dance_arr/pi_quad.pdf) (arr. P. Bucalossi)
+  - [Waltz](../dance_arr/pi_waltz.pdf) (arr. P. Bucalossi)
+* [**Discography:**](http://gasdisc.oakapplepress.com/ida.htm) Marc Shepherd's Princess Ida Discography
+* [**A historical overview of Ida recordings**](http://gasdisc.oakapplepress.com/ida-walt1.htm) through the years,
+  by the late Michael Walters.
 
-          <table width="80%" border="0" align="center" cellpadding="0" cellspacing="5" class="linkstab">
+<table width="80%" border="0" align="center" cellpadding="0" cellspacing="5" class="linkstab">
             <tr>
               <td width="30%" align="center"><img src="../graphics/web_op.gif" alt="To Web Opera" width="120" height="120"></td>
               <td width="70%" align="center"><p align="center"><a href="../webop/index.html" class="subhead">WEB OPERA</a></p>
