@@ -17,6 +17,11 @@ To build and test locally:
 It should auto-detect changes to Markdown or layout files. If you change the
 configuration in _config.yml, restart Jekyll.
 
+To push out a live version using an SSHFS mount:
+
+    $ sshfs gsarchive:public_html ../live
+    $ python build.py ../live
+
 To make the site available on the LAN, add your local IP: `-H 192.168.0.123`
 
 Where necessary, the target file name to be customized:
