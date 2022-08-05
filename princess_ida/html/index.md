@@ -129,7 +129,8 @@ surrenders to her Prince.
 * [Illustrated Music Covers](../music_covers/index.html)
 * [Eight watercolors by W. Russell Flint](../flint/gallery_index.html).
 
-## The Prototypes: Tennyson's Poem and Gilbert's Play
+## Tennyson & Gilbert
+### The Prototypes: Tennyson's Poem and Gilbert's Play
 
 * **Tennyson's poem [_The Princess_](../../gilbert/plays/princess/tennyson/index.htm),** which
   was the basis for Gilbert's 1870 play [_The Princess_](../../gilbert/plays/princess/princess_home.html).
