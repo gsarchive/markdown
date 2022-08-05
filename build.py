@@ -4,6 +4,13 @@
 # the G&S Archive doesn't seem to have Python 3 installed.
 import os
 import subprocess
+import sys
+
+destdir = "../public_html"
+if len(sys.argv) > 1:
+	# TODO: better arg parsing plsthx
+	if os.path.exists(sys.argv[1]): destdir = sys.argv[1]
+	else: print("Unknown argument") # yeah like I said
 
 # Call on Ruby to do most of the build work
 subprocess.call(["jekyll", "build"])
@@ -17,7 +24,7 @@ subprocess.call(["jekyll", "build"])
 for root, dirs, files in os.walk("_site"):
 	origin = root
 	if root.startswith("_site"): root = root[5:] # Older Pythons don't have removeprefix
-	dest = "../public_html" + root#.removeprefix("_site")
+	dest = destdir + root#.removeprefix("_site")
 	try: os.mkdir(dest)
 	except OSError: pass # TODO: Only ignore "file exists"
 	print(root)
