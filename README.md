@@ -28,3 +28,7 @@ Where necessary, the target file name to be customized:
 Otherwise it should be the same path as the .md file but with .html. Use only
 where necessary to maintain backward compatibility. TODO: See about creating
 redirects and having the canonical name able to move to the default.
+
+TODO: Figure out the discrepancies between str|slugify and what goes into a
+heading's ID. "Tennyson & Gilbert" got a double hyphen in the ID but not in
+the TOC, which uses |slugify to try to achieve the same result.

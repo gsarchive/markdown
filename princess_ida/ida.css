@@ -102,3 +102,17 @@ a:active {
 	font-weight: bold;
 	color: #660033;
 }
+
+.toc {
+	font-size: 14px;
+}
+.toc ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+.toc li {
+	margin: 0 3px;
+}

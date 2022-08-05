@@ -23,8 +23,7 @@ surrenders to her Prince.
 
 ***
 
-<!-- TODO: generate the TOC automatically -->
-<div> [<a href="index.html#1">The Words</a>] [<a href="index.html#2">The Music</a>]&nbsp;[<a href="index.html#3">Early Productions</a>] <a href="index.html#1954">[1954 Revival]</a> &nbsp;[<a href="index.html#6">Art</a>]&nbsp;&nbsp;[<a href="index.html#4">Tennyson &amp; Gilbert</a>] [<a href="index.html#5">Discussion</a>] </div>
+{% include toc.html %}
 
 ***
 
@@ -129,7 +128,7 @@ surrenders to her Prince.
 * [Illustrated Music Covers](../music_covers/index.html)
 * [Eight watercolors by W. Russell Flint](../flint/gallery_index.html).
 
-## Tennyson & Gilbert
+## Tennyson and Gilbert
 ### The Prototypes: Tennyson's Poem and Gilbert's Play
 
 * **Tennyson's poem [_The Princess_](../../gilbert/plays/princess/tennyson/index.htm),** which

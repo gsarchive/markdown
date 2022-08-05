@@ -1,0 +1,8 @@
+{% comment %}
+Generate a Table of Contents from the headings collected by the Python build script
+{% endcomment-%}
+<nav class=toc markdown=1>
+{%-for head in site.data.toc[page.path] %}
+* [[{{ head }}](#{{ head | slugify }})]
+{%-endfor %}
+</nav>
