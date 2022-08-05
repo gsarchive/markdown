@@ -2,7 +2,7 @@
 title: Princess Ida
 description: Home Page for &quot;Princess Ida&quot; at the Gilbert and Sullivan Archive
 keywords: sullivan, gilbert, d'oyly carte, savoy, ida, princess
-stylesheet: ../ida.css
+stylesheet: ../poc_ida.css
 target: poc_index.html
 ---
 

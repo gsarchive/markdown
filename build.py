@@ -30,6 +30,7 @@ for root, dirs, files in os.walk("_site"):
 				_, target, fn = line.partition("MD TARGET:")
 				if target:
 					# This should really be removesuffix, but again, older Pythons.
+					# (Note that it would have to remove "*/" too, for CSS files)
 					destname = fn.rsplit("-->", 1)[0].strip()
 					break
 		os.rename(origin + "/" + file, dest + "/" + destname)
