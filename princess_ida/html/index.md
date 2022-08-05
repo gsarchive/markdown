@@ -3,6 +3,7 @@ title: Princess Ida
 description: Home Page for &quot;Princess Ida&quot; at the Gilbert and Sullivan Archive
 keywords: sullivan, gilbert, d'oyly carte, savoy, ida, princess
 stylesheet: ../ida.css
+target: poc_index.html
 ---
 
 Gilbert and Sullivan's eighth collaboration, _Princess Ida; or, Castle Adamant,_ opened on
