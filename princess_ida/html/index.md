@@ -6,6 +6,17 @@ stylesheet: ../poc_ida.css
 target: poc_index.html
 ---
 
+<!-- TODO: Autogenerate this from the path -->
+<nav><span class="menuitem">You are here:</span>
+<span class="menuitem"><a href="../../index.html"> Archive Home</a></span>
+<span class="youare">&gt;</span><span class="here"> Princess Ida</span>
+</nav>
+<header>
+    <a href="../../index.html"><img src="https://gsarchive.net/layout/images/logo3sm.jpg" alt="The Gilbert and Sullivan Archive" width="200" height="133" border="0"></a>
+    <!-- TODO: Configure this from the page -->
+    <div><img src="../graphics/title.gif" alt="Princess Ida" width="513" height="135"></div>
+</header>
+
 Gilbert and Sullivan's eighth collaboration, _Princess Ida; or, Castle Adamant,_ opened on
 5&nbsp;January 1884 at the Savoy Theatre and ran for 246 performances. To create the
 libretto, Gilbert turned to a play he had written in 1870 entitled _The Princess_, and reused
