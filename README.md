@@ -37,3 +37,11 @@ redirects and having the canonical name able to move to the default.
 TODO: Figure out the discrepancies between str|slugify and what goes into a
 heading's ID. "Tennyson & Gilbert" got a double hyphen in the ID but not in
 the TOC, which uses |slugify to try to achieve the same result.
+
+TODO: Autogenerate breadcrumbs from paths. This will require a preparse step
+as per TOC generation. Take the title from the front matter YAML and store it;
+for this purpose, it may be most convenient to have the root page stored in
+`dirname/index.md` with a target of `dirname/html/index.html`, rather than
+having a weird sideways step into the html directory. Possible bonus: having
+redirects from eg `princess_ida/` to `princess_ida/html/index.html` may be of
+value for anyone who trims the URL.
