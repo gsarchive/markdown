@@ -18,7 +18,7 @@ if len(sys.argv) > 1:
 try: os.mkdir("_data")
 except OSError: pass # TODO as below, only ignore "exists"
 
-toc, links, trail = { }, { }, { }
+toc, links, trail, crumbs = { }, { }, { }, { }
 for root, dirs, files in os.walk("."):
 	# Don't recurse into any underscore or dot prefixed directories
 	dirs[:] = [d for d in dirs if d == d.lstrip("_.")]
@@ -32,27 +32,28 @@ for root, dirs, files in os.walk("."):
 		name = (root + "/" + file)[2:] # Slice off "./" at the start of the file
 		toc[name] = [chunk.split("\n", 1)[0] for chunk in ("\n" + data).split("\n## ")[1:]]
 		path = name.replace("html/", "")
-		if path.endswith("index.md"):
-			# When looking at a directory page, save its title.
-			path = os.path.dirname(path)
-			for doc in yaml.safe_load_all(data):
-				if doc["title"]:
-					# Try to recreate the HTML file name pattern Jekyll uses
-					# Worst case, if this gets it wrong, just add an explicit
-					# "target: whatever.html" in the Markdown frontmatter.
-					destname = doc.get("target") or os.path.basename(name).replace(".md", ".html")
-					dest = os.path.normpath(name + "/../" + destname)
-					links[path] = "[%s](/%s)" % (doc["title"], dest)
-				break # Only need one document, but if there isn't one, assume no title available
+		front = { }
+		try: front = next(yaml.safe_load_all(data))
+		except (StopIteration, yaml.scanner.ScannerError): pass # No front matter? Use empty front matter.
+		if path.endswith("index.md"): path = os.path.dirname(path)
+		# When looking at a directory page, save its title.
+		if "title" in front:
+			# Try to recreate the HTML file name pattern Jekyll uses
+			# Worst case, if this gets it wrong, just add an explicit
+			# "target: whatever.html" in the Markdown frontmatter.
+			destname = front.get("target") or os.path.basename(name).replace(".md", ".html")
+			dest = os.path.normpath(name + "/../" + destname)
+			links[path] = "[%s](/%s)" % (front["title"], dest)
 		# For all pages, look for a parent and copy in the breadcrumbs and title
-		parent = os.path.dirname(path)
-		trail[name] = trail.get(parent, [])
+		parent = os.path.normpath(path + "/../" + front.get("parent", "."))
+		trail[path] = trail.get(parent, [])
 		par = links.get(parent)
-		if par: trail[name] = trail[name] + [par]
+		if par: trail[path] = trail[path] + [par]
+		crumbs[name] = trail[path]
 with open("_data/toc.json", "w") as f:
 	json.dump(toc, f)
 with open("_data/breadcrumbs.json", "w") as f:
-	json.dump(trail, f)
+	json.dump(crumbs, f)
 
 # Call on Ruby to do most of the build work
 subprocess.call(["jekyll", "build"])

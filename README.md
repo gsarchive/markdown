@@ -24,15 +24,20 @@ To push out a live version using an SSHFS mount:
 
 To make the site available on the LAN, add your local IP: `-H 192.168.0.123`
 
-Where necessary, the target file name to be customized:
+Where necessary, the target file name and breadcrumb trail can be customized:
 
     ---
     target: index.htm
+    parent: web_op/index.md
     ---
 
-Otherwise it should be the same path as the .md file but with .html. Use only
+Otherwise target will be the same path as the .md file but with .html. Use only
 where necessary to maintain backward compatibility. TODO: See about creating
 redirects and having the canonical name able to move to the default.
+
+Automatic breadcrumbing and TOC generation can be done on the basis of the
+front-matter titles, and optionally explicit parentage (otherwise dirname is
+used as a logical default).
 
 TODO: Figure out the discrepancies between str|slugify and what goes into a
 heading's ID. "Tennyson & Gilbert" got a double hyphen in the ID but not in
