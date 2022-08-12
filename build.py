@@ -6,6 +6,7 @@ import json
 import os
 import subprocess
 import sys
+import yaml # ImportError? pip install pyyaml
 
 destdir = "../public_html"
 if len(sys.argv) > 1:
@@ -17,17 +18,41 @@ if len(sys.argv) > 1:
 try: os.mkdir("_data")
 except OSError: pass # TODO as below, only ignore "exists"
 
-toc = { }
+toc, links, trail = { }, { }, { }
 for root, dirs, files in os.walk("."):
 	# Don't recurse into any underscore or dot prefixed directories
 	dirs[:] = [d for d in dirs if d == d.lstrip("_.")]
+	if "index.md" in files:
+		# Always process index first (and files are done before dirs, so that's safe)
+		files.remove("index.md")
+		files.insert(0, "index.md")
 	for file in files:
 		if not file.endswith(".md"): continue
 		with open(root + "/" + file) as f: data = f.read()
-		# Slice off "./" at the start of the file
-		toc[(root + "/" + file)[2:]] = [chunk.split("\n", 1)[0] for chunk in ("\n" + data).split("\n## ")[1:]]
+		name = (root + "/" + file)[2:] # Slice off "./" at the start of the file
+		toc[name] = [chunk.split("\n", 1)[0] for chunk in ("\n" + data).split("\n## ")[1:]]
+		path = name.replace("html/", "")
+		if path.endswith("index.md"):
+			# When looking at a directory page, save its title.
+			path = os.path.dirname(path)
+			for doc in yaml.safe_load_all(data):
+				if doc["title"]:
+					# Try to recreate the HTML file name pattern Jekyll uses
+					# Worst case, if this gets it wrong, just add an explicit
+					# "target: whatever.html" in the Markdown frontmatter.
+					destname = doc.get("target") or os.path.basename(name).replace(".md", ".html")
+					dest = os.path.normpath(name + "/../" + destname)
+					links[path] = "[%s](/%s)" % (doc["title"], dest)
+				break # Only need one document, but if there isn't one, assume no title available
+		# For all pages, look for a parent and copy in the breadcrumbs and title
+		parent = os.path.dirname(path)
+		trail[name] = trail.get(parent, [])
+		par = links.get(parent)
+		if par: trail[name] = trail[name] + [par]
 with open("_data/toc.json", "w") as f:
 	json.dump(toc, f)
+with open("_data/breadcrumbs.json", "w") as f:
+	json.dump(trail, f)
 
 # Call on Ruby to do most of the build work
 subprocess.call(["jekyll", "build"])

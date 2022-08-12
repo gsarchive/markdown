@@ -3,14 +3,10 @@ title: Princess Ida
 description: Home Page for &quot;Princess Ida&quot; at the Gilbert and Sullivan Archive
 keywords: sullivan, gilbert, d'oyly carte, savoy, ida, princess
 stylesheet: ../poc_ida.css
-target: poc_index.html
+target: html/poc_index.html
 ---
 
-<!-- TODO: Autogenerate this from the path -->
-<nav><span class="menuitem">You are here:</span>
-<span class="menuitem"><a href="../../index.html"> Archive Home</a></span>
-<span class="youare">&gt;</span><span class="here"> Princess Ida</span>
-</nav>
+{% include breadcrumbs.html %}
 <header>
     <a href="../../index.html"><img src="https://gsarchive.net/layout/images/logo3sm.jpg" alt="The Gilbert and Sullivan Archive" width="200" height="133" border="0"></a>
     <!-- TODO: Configure this from the page -->

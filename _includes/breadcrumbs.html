@@ -1,0 +1,10 @@
+{% comment %}
+Generate breadcrumb navigation from the headings collected by the Python build script
+{% endcomment-%}
+<nav class=breadcrumbs><span class="menuitem">You are here: </span>
+<span class="menuitem"><a href="/">Archive Home</a></span>
+{%-for link in site.data.breadcrumbs[page.path] %}
+<span class="youare"> &gt; </span><span class="here" markdown=1>{{link}}</span>
+{%-endfor-%}
+<span class="youare"> &gt; </span><span class="here">{{page.title}}</span>
+</nav>

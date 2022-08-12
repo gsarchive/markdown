@@ -4,11 +4,7 @@ description: Tribute to late Curator Meredith Dixon
 keywords: sullivan, gilbert, d'oyly carte, curator, meredith, dixon, tribute
 ---
 
-<!-- TODO: Autogenerate this from the path -->
-<nav><span class="menuitem">You are here:</span>
-<span class="menuitem"><a href="../../index.html"> Archive Home</a></span>
-<span class="youare">&gt;</span><span class="here"> Meredith Dixon</span>
-</nav>
+{% include breadcrumbs.html %}
 
 ## A tribute
 
