@@ -17,3 +17,6 @@ Degree in Library Science at Catholic University, and had a career as a
 librarian. She was a Latin scholar and taught and translated online. She was
 married to James Dixon for 31 years and was a member of St. Matthias Anglican
 Church in Dothan, Alabama.
+
+Three months after Meredith assumed the curatorship of the G&S Archive, she
+died in a car accident. We miss her kind positivity.
