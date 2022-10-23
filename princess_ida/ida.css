@@ -1,3 +1,4 @@
+@import "gsarchive.css";
 /* Ultimately, put these styles into gsarchive.css and don't have directory-specific styles */
 /* MD TARGET: poc_ida.css --> */
 * {box-sizing: border-box;}
