@@ -1,1 +1,24 @@
 /* Base styles applied to every page. TODO: Move more from markdown.css into here. */
+* {box-sizing: border-box;} /* I REALLY hope this doesn't break a bunch of stuff */
+
+/* Pages which have not been converted to have a <main> element may use a stand-alone
+footer. This is visually separated from the other content (which is usually in a table
+or similar), and will use site-consistent styling rather than matching the section it's
+in, but it should provide the crucial legal information. Replace this standalone footer
+with the standard version as seen in _layouts/default.html on any page where this is
+appropriate - or just convert it to Markdown, which will have the same effect. */
+footer.standalone {
+	border: 10px solid #cece9c;
+	border-radius: 10px;
+	background-image: url(../layout/images/page_frame/cream_back.gif);
+	max-width: 90%;
+	margin: 0.5em auto;
+	padding: 0.5em;
+}
+
+footer.standalone .copyright {
+	font-size: 14px;
+	color: #666666;
+	margin: auto;
+	text-align: center;
+}
