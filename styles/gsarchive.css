@@ -22,3 +22,13 @@ footer.standalone .copyright {
 	margin: auto;
 	text-align: center;
 }
+
+/* Popup images are done with dialogs. */
+dialog > section {
+	display: flex;
+	flex-direction: column;
+}
+#popimgdlg {
+	border: 3px solid rebeccapurple;
+	padding: 0.5em;
+}
