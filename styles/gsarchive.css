@@ -32,3 +32,10 @@ dialog > section {
 	border: 3px solid rebeccapurple;
 	padding: 0.5em;
 }
+#popimgdlg figure {
+	margin: 0;
+}
+#popimgdlg figcaption {
+	text-align: center;
+	background: aliceblue;
+}
