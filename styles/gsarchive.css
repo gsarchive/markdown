@@ -23,6 +23,9 @@ footer.standalone .copyright {
 	text-align: center;
 }
 
+/* When a page is shown in a popup, hide the (rather large) standalone footer. */
+body.inpopup footer.standalone {display: none;}
+
 /* Popup images are done with dialogs. */
 dialog > section {
 	display: flex;
