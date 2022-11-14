@@ -53,7 +53,7 @@ surrenders to her Prince.
 </article>
 
 <figure>
-<a href="../graphics/ida.jpg" data-lightbox="images" title="Design for Princess Ida's costume by Percy Anderson, 1921"><img src="../graphics/ida_sm.jpg" alt="Princess Ida" width="146" height="275" border="2"></a>
+<a href="../graphics/ida.jpg" class="popup" title="Design for Princess Ida's costume by Percy Anderson, 1921"><img src="../graphics/ida_sm.jpg" alt="Princess Ida" width="146" height="275" border="2"></a>
 <figcaption>Design for Princess Ida's costume by Percy Anderson, 1921</figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ surrenders to her Prince.
 <section>
 
 <figure>
-<a href="../graphics/hildebrand.jpg" data-lightbox="images" title="Design for King Hildebrand's costume by James Wade, 1954"><img src="../graphics/hildebrand_sm.jpg" alt="King Hildebrand" width="204" height="300" border="2"></a>
+<a href="../graphics/hildebrand.jpg" class="popup" title="Design for King Hildebrand's costume by James Wade, 1954"><img src="../graphics/hildebrand_sm.jpg" alt="King Hildebrand" width="204" height="300" border="2"></a>
 <figcaption>Design for King Hildebrand's costume by James Wade, 1954</figcaption>
 </figure>
 
