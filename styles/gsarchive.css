@@ -27,6 +27,10 @@ footer.standalone .copyright {
 body.inpopup footer.standalone {display: none;}
 
 /* Popup images are done with dialogs. */
+@supports (-moz-appearance:none) {
+	/* Older versions of Firefox don't automatically position dialogs properly. */
+	dialog {position: fixed; top: 50%; transform: translateY(-50%);}
+}
 dialog > section {
 	display: flex;
 	flex-direction: column;
