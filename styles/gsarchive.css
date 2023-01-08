@@ -46,3 +46,18 @@ dialog > section {
 	text-align: center;
 	background: aliceblue;
 }
+
+main {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	background-image: url(../layout/images/page_frame/cream_back.gif);
+	width: 90%;
+	border: 10px solid #cece9c;
+	border-radius: 10px;
+	margin: auto;
+	padding: 10px;
+}
+
