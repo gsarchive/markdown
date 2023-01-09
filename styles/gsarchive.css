@@ -61,3 +61,12 @@ main {
 	padding: 10px;
 }
 
+/* <figure> when used inline needs some help */
+/* Note that some tables transformed into <figure class=inlinefig> actually don't
+need all of these styles, and could be simplified; if they aren't floated left/right,
+it might be worth changing them. But for now, it's easier to not. */
+.inlinefig {margin: 0; width: min-content;}
+.inlinefig.left {float: left;}
+.inlinefig.right {float: right;}
+.inlinefig.padded div {padding: 5px;}
+.inlinefig figcaption {text-align: center;}
