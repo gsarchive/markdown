@@ -68,5 +68,6 @@ it might be worth changing them. But for now, it's easier to not. */
 .inlinefig {margin: 0; width: min-content;}
 .inlinefig.left {float: left;}
 .inlinefig.right {float: right;}
+.inlinefig.center {margin: auto;}
 .inlinefig.padded div {padding: 5px;}
 .inlinefig figcaption {text-align: center;}
