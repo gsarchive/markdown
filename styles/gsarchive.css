@@ -57,7 +57,7 @@ main {
 	background-image: url(../layout/images/page_frame/cream_back.gif);
 	width: 90%;
 	border: 10px solid #cece9c;
-	border-radius: 10px;
+	border-radius: 20px;
 	margin: 0 auto 10px;
 	padding: 10px;
 }
