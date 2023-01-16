@@ -16,12 +16,13 @@ footer.standalone {
 	padding: 0.5em;
 }
 
-footer.standalone .copyright {
+footer .copyright {
 	font-size: 14px;
 	color: #666666;
 	margin: auto;
 	text-align: center;
 }
+
 
 /* When a page is shown in a popup, hide the (rather large) standalone footer. */
 body.inpopup footer.standalone {display: none;}
