@@ -83,5 +83,15 @@ main.narrow .topmatter {
 }
 main.narrow table.banner {
 	position: relative;
-	left: -45px;
+	left: -35px;
+}
+/* A small number of pages had a CSS class that changed the padding. Retain that. */
+main.narrow.padded {
+	padding: 10px 30px;
+}
+main.narrow.padded .topmatter {
+	margin: 0 -30px;
+}
+main.narrow.padded table.banner {
+	left: -65px;
 }
