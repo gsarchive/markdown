@@ -77,7 +77,7 @@ it might be worth changing them. But for now, it's easier to not. */
 main.narrow {
 	width: 700px;
 }
-main.narrow > table {
+main.narrow table.banner {
 	position: relative;
 	left: -45px;
 }
