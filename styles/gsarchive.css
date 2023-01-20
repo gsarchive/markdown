@@ -76,6 +76,10 @@ it might be worth changing them. But for now, it's easier to not. */
 /* Narrow pages with outset heading banners need a little help */
 main.narrow {
 	width: 700px;
+	padding: 10px 0;
+}
+main.narrow .topmatter {
+	padding: 0 10px;
 }
 main.narrow table.banner {
 	position: relative;
