@@ -72,3 +72,12 @@ it might be worth changing them. But for now, it's easier to not. */
 .inlinefig.center {margin: auto;}
 .inlinefig.padded div {padding: 5px;}
 .inlinefig figcaption {text-align: center;}
+
+/* Narrow pages with outset heading banners need a little help */
+main.narrow {
+	width: 700px;
+}
+main.narrow > table {
+	position: relative;
+	left: -45px;
+}
