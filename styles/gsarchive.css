@@ -110,3 +110,11 @@ main.narrow.padded table.banner {
 .masthead.image {
 	width: min-content;
 }
+
+.inset-center {
+	margin: auto;
+	width: fit-content;
+	display: flow-root; /* Prevent CSS margin collapse */
+}
+.right-align {text-align: right;}
+.center-align {text-align: center;}
