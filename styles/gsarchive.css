@@ -111,10 +111,20 @@ main.narrow.padded table.banner {
 	width: min-content;
 }
 
+/* These could have been done as .inset.center but I didn't want to overuse short names like "center" */
 .inset-center {
 	margin: auto;
 	width: fit-content;
 	display: flow-root; /* Prevent CSS margin collapse */
+}
+.inset-left {
+	width: fit-content;
+	display: flow-root;
+}
+.inset-right {
+	margin-left: auto;
+	width: fit-content;
+	display: flow-root;
 }
 .right-align {text-align: right;}
 .center-align {text-align: center;}
