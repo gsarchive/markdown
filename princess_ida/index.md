@@ -48,7 +48,7 @@ surrenders to her Prince.
 * [**Early D'Oyly Carte Prompt Book**] (http://www.vam.ac.uk/files/file_upload/53074_file.pdf) at the V&A Museum
 * **Glossaries**
   - From the book [_Titwillow_](gloss.html) by Guy and Claude Walmisley
-  - [_Benford's Gilbert and Sullivan Lexicon_](http://gsopera.com/opera/55/lexicon) at GSOpera.com
+  - [_Benford's Gilbert and Sullivan Lexicon_](https://gsopera.com/lexicon/32/opera) at GSOpera.com
 
 </article>
 
