@@ -13,6 +13,11 @@ def process(fn):
 	title = "???"
 	firstline = "need-heading"
 	for i, line in enumerate(data):
+		# Quick check for trailing whitespace. Note that this doesn't (on its own) flag the file
+		# for save-back, but it'll be carried through if there are any other changes made.
+		if line.endswith(" \n"):
+			line = data[i] = line.rstrip() + "\n"
+		# Okay. Now for the real work.
 		if line.startswith("breadcrumb: No. "):
 			correct = "breadcrumb: No. " + str(song) + "\n"
 			if line != correct:

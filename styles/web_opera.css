@@ -144,6 +144,9 @@ h4 ~ p {
 	text-align: center;
 	text-indent: 0;
 }
+p.spoken {
+	text-align: left;
+}
 
 .wo_nav {
 	display: flex;

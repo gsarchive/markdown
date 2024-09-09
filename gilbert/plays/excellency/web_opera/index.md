@@ -50,4 +50,11 @@ Alternatively, complete sets can be downloaded as Zip files:
 * [No. 11](hex11.html) - Song - Nanna - "My wedded life"
 * [Dialogue](hex11d.html)
 * [No. 12](hex12.html) - Finale of Act I - "To the Regent — the Regent — the Regent, away"
-* [No. 13](hex13.html) - Opening Chorus - " Thank you Private Griffenfeld"
+
+### ACT II - Castle Courtyard
+
+* [No. 13](hex13.html) - Opening Chorus - "Thank you Private Griffenfeld"
+* [Dialogue](hex13d.html)
+* [No. 14](hex14.html) - Song - Griffenfeld - "need-heading"
+* [Dialogue](hex14d.html)
+* [No. 15](hex15.html) - Duet - Harold and Blanca - " So it ends with a wedding at Hanover Square"
