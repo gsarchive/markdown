@@ -23,13 +23,16 @@ toc, links, trail, crumbs = { }, { }, { }, { }
 # TODO: Move this into config.yml and deduplicate the URL
 links["gilbert/plays/excellency"] = "[His Excellency](/gilbert/plays/excellency/his_excellency.html)"
 # Note that you can customize the breadcrumb for a page independently of its title using frontmatter "breadcrumb: Short Title"
+wo_nav = {"lastpage": { }, "lastsong": { }, "nextsong": { }, "nextpage": { }}
 for root, dirs, files in os.walk("."):
 	# Don't recurse into any underscore or dot prefixed directories
 	dirs[:] = [d for d in dirs if d == d.lstrip("_.")]
+	files.sort() # Ensure correct ordering; note that we need to process "xyz09.md" before "xyz09d.md"
 	if "index.md" in files:
 		# Always process index first (and files are done before dirs, so that's safe)
 		files.remove("index.md")
 		files.insert(0, "index.md")
+	wo_page, wo_song, wo_prev = ".", ".", []
 	for file in files:
 		if not file.endswith(".md"): continue
 		with open(root + "/" + file) as f: data = f.read()
@@ -54,11 +57,27 @@ for root, dirs, files in os.walk("."):
 		par = links.get(parent)
 		if par: trail[path] = trail[path] + [par]
 		crumbs[name] = trail[path]
+		if root.endswith("/web_opera") and file != "index.md":
+			# In a web opera, record navigational information
+			wo_nav["lastpage"][name] = wo_page
+			wo_nav["lastsong"][name] = wo_song
+			if wo_prev: wo_nav["nextpage"][wo_prev[-1]] = destname # The most recent page has a "next page" to here
+			wo_page = destname
+			if not file.endswith("d.md"):
+				for p in wo_prev: wo_nav["nextsong"][p] = destname
+				wo_song, wo_prev = destname, []
+			wo_prev.append(name)
+			# In case this is the last one, prepopulate with "back to index"
+			# These will be overridden if there's an actual next.
+			wo_nav["nextpage"][name] = "."
+			wo_nav["nextsong"][name] = "."
 
 with open("_data/toc.json", "w") as f:
 	json.dump(toc, f)
 with open("_data/breadcrumbs.json", "w") as f:
 	json.dump(crumbs, f)
+with open("_data/wo_nav.json", "w") as f:
+	json.dump(wo_nav, f, indent=4)
 
 # Call on Ruby to do most of the build work
 subprocess.call(["bundle", "exec", "jekyll", "build"])
@@ -106,6 +125,11 @@ if destdir != "../live":
 		"layout/images/page_frame/cream_back.gif",
 		"layout/images/midi.gif",
 		"layout/images/midi_karaoke.gif",
+		"layout/wo_nav/purp_wostrip/lastpage.jpg",
+		"layout/wo_nav/purp_wostrip/lastsong.jpg",
+		"layout/wo_nav/purp_wostrip/webohome.jpg",
+		"layout/wo_nav/purp_wostrip/nextsong.jpg",
+		"layout/wo_nav/purp_wostrip/nextpage.jpg",
 		"gilbert/plays/excellency/graphics/title.gif",
 	]
 	for fn in files:
@@ -113,7 +137,6 @@ if destdir != "../live":
 			# Only check for the presence of ../live if there's something missing.
 			# That'll be faster than pinging a remote server unnecessarily.
 			print("Copying", fn, "...")
-			print(os.path.dirname(destdir + "/" + fn))
 			os.makedirs(os.path.dirname(destdir + "/" + fn), exist_ok=True)
 			with open("../live/" + fn, "rb") as i, open(destdir + "/" + fn, "wb") as o:
 				o.write(i.read()) # Assume file is small enough to fit in memory

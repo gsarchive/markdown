@@ -1,0 +1,22 @@
+{
+    "lastpage": {
+        "gilbert/plays/excellency/web_opera/hex01.md": ".",
+        "gilbert/plays/excellency/web_opera/hex01d.md": "hex01.html",
+        "gilbert/plays/excellency/web_opera/hex02.md": "hex01d.html"
+    },
+    "lastsong": {
+        "gilbert/plays/excellency/web_opera/hex01.md": ".",
+        "gilbert/plays/excellency/web_opera/hex01d.md": "hex01.html",
+        "gilbert/plays/excellency/web_opera/hex02.md": "hex01.html"
+    },
+    "nextsong": {
+        "gilbert/plays/excellency/web_opera/hex01.md": "hex02.html",
+        "gilbert/plays/excellency/web_opera/hex01d.md": "hex02.html",
+        "gilbert/plays/excellency/web_opera/hex02.md": "."
+    },
+    "nextpage": {
+        "gilbert/plays/excellency/web_opera/hex01.md": "hex01d.html",
+        "gilbert/plays/excellency/web_opera/hex01d.md": "hex02.html",
+        "gilbert/plays/excellency/web_opera/hex02.md": "."
+    }
+}

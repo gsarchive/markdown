@@ -145,3 +145,5 @@ Where is the lordly mien?
 Ah, dullards and dolts are all I’ve known,
 Compared with that marvellous, matchless stone!
 *Exit CHRISTINA.*
+
+{% include wo_nav.html %}
