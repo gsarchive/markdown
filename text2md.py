@@ -49,7 +49,7 @@ def process(fn):
 		if changes:
 			# Note that we use data[i] rather than line, in case this line has itself been changed already
 			modified = re.sub(r"(?<![]a-z*[])(\([^)]+\.?\)\.?)(?!\*)", "*\\1*", data[i])
-			if modified != line:
+			if modified != data[i]:
 				data[i] = modified
 				changes += 1
 				pass
