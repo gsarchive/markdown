@@ -17,8 +17,11 @@ stylesheet: /styles/web_opera.css
 ### All the music, lyrics, and dialogue
 
 Individual MIDI and Karaoke files can be accessed from the pages for the relevant number.
-Alternatively, complete sets can be downloaded as Zip files:<br>
-[MIDI Files](../midi/excellency_midi.zip) [Karaoke Files](../midi/excellency_karaoke.zip)
+Alternatively, complete sets can be downloaded as Zip files:
+
+[ ![](/layout/images/midi.gif) MIDI files](../midi/excellency_midi.zip)
+[ ![](/layout/images/midi_karaoke.gif) Karaoke files](../midi/excellency_karaoke.zip)
+{:.musiclinks}
 
 -----
 

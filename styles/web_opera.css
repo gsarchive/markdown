@@ -129,3 +129,8 @@ a:active {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+.musiclinks {
+	display: flex;
+	justify-content: space-around;
+}

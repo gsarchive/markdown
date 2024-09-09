@@ -104,6 +104,8 @@ for root, dirs, files in os.walk("_site"):
 if destdir != "../live":
 	files = [
 		"layout/images/page_frame/cream_back.gif",
+		"layout/images/midi.gif",
+		"layout/images/midi_karaoke.gif",
 		"gilbert/plays/excellency/graphics/title.gif",
 	]
 	for fn in files:
