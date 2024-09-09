@@ -33,16 +33,17 @@ def process(fn):
 			if int(num) != song:
 				data[i] = "%s%02d.%s%s" % (line[:m.start()], song, ext, line[m.end():])
 				changes += 1
-		elif m := re.match(r"^([A-Z 0-9]+\.)(.*)$", line, re.M):
+		elif m := re.match(r"^([A-Z 0-9,]+( and )?[A-Z 0-9,]*\.)(.*)$", line, re.M):
 			# eg "PERSON. Lorem ipsum dolor sit amet!"
-			person, firstline = m.groups()
+			person, _, firstline = m.groups()
 			if dlg: data[i] = "\n**" + person + "** " + firstline.strip() + "\n"
 			else: data[i] = "#### " + person + "\n" + firstline.strip() + "\n"
 			changes += 1
-		elif dlg and (m := re.match(r"^([A-Z 0-9]+) (\([^)]+\.?\)\.?)(.*)$", line, re.M)):
+		elif m := re.match(r"^([A-Z 0-9,]+)( and )?[A-Z 0-9,]* (\([^)]+\.?\)\.?)(.*)$", line, re.M):
 			# eg "PERSON (softly). Lorem ipsum dolor sit amet?"
-			person, style, firstline = m.groups()
-			data[i] = "\n**" + person + "** *" + style + "* " + firstline.strip() + "\n"
+			person, _, style, firstline = m.groups()
+			if dlg: data[i] = "\n**" + person + "** *" + style + "* " + firstline.strip() + "\n"
+			else: data[i] = "#### " + person + " *" + style + "*\n" + firstline.strip() + "\n"
 			changes += 1
 		# Check for any parenthesized sections. These might be actual spoken parentheses, or
 		# they might be stage directions. Since stage directions are more common, and it's
