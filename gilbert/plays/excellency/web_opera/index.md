@@ -29,4 +29,23 @@ Alternatively, complete sets can be downloaded as Zip files:
 
 * [No. 1](hex01.html) - Opening Chorus and Ballad - Christina - "Set the merry bunting flying, fire the cannon, ring the bells..."
 * [Dialogue](hex01d.html)
-* [No. 2](hex02.html) - Song - Erling - "When I bestow my bosom's store, no room for doubt must I descry..."
+* [No. 2](hex02.html) - Song - Erling - "When I bestow my bosom’s store"
+* [Dialogue](hex02d.html)
+* [No. 3](hex03.html) - Duet - Nanna and Thora - "Oh, my goodness, here’s the nobility"
+* [Dialogue](hex03d.html)
+* [No. 4](hex04.html) - Quartet - Nanna, Thora, Erling, and Tortenssen - "If all is as you say"
+* [Dialogue](hex04d.html)
+* [No. 5](hex05.html) - Chorus - "Here are warriors all ablaze"
+* [Dialogue](hex05d.html)
+* [No. 6](hex06.html) - Duet - Griffenfeld and Dame Cortlandt - "Now what would I do if you proved untrue"
+* [Dialogue](hex06d.html)
+* [No. 7](hex07.html) - Trio - Griffenfeld, Nanna, and Thora - "Oh what a fund of joy jocund lies hid in harmless hoaxes"
+* [Dialogue](hex07d.html)
+* [No. 8](hex08.html) - Song - Regent - "A King, though he’s pestered with cares"
+* [Dialogue](hex08d.html)
+* [No. 9](hex09.html) - Duet - Regent and Griffenfeld - "I’ve grasped your scheme, if I can say as much without intrusion"
+* [Dialogue](hex09d.html)
+* [No. 10](hex10.html) - Duet - Dame and Syndic - "Now all that we’ve agreed upon, O"
+* [Dialogue](hex10d.html)
+* [No. 11](hex11.html) - Song - Nanna - "My wedded life"
+* [Dialogue](hex11d.html)

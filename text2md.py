@@ -1,12 +1,17 @@
 # Some small conveniences for turning text into Markdown
 import sys
 import re
+import os.path
+
+files = { }
 
 def process(fn):
 	with open(fn) as f: data = f.readlines()
 	dlg = fn.endswith("d.md") # Dialogue is formatted slightly differently
 	song = int("".join(c for c in fn if c in "0123456789") or "0") # Extract 7 from "hex07.md"
 	changes = 0
+	title = "???"
+	firstline = "need-heading"
 	for i, line in enumerate(data):
 		if line.startswith("breadcrumb: No. "):
 			correct = "breadcrumb: No. " + str(song) + "\n"
@@ -53,6 +58,28 @@ def process(fn):
 				data[i] = modified
 				changes += 1
 				pass
+		if firstline == "need-heading" and data[i].startswith("#### "): firstline = "grab"
+		elif firstline == "grab" and data[i] != "" and data[i].strip() != "&nbsp;" and not data[i].startswith("#"): firstline = data[i].strip()
+		if fn.endswith("index.md") and (m := re.match(r"\* \[[^]]+\]\(([^)]+)\)", line)):
+			# We have a link to a file, so we won't need to add more
+			try: del files[m.group(1)]
+			except KeyError: pass
+	if song:
+		# Ensure that we have a link to this file in the index (if we're processing the index)
+		html = os.path.basename(fn).replace(".md", ".html")
+		title = (title.title()
+			.replace(" And ", " and ").replace(" A ", " a ").replace(" The ", " the ")
+			.replace("—", "-").replace(".", "")
+		)
+		firstline = firstline.rstrip(",.:!— ") # No need for trailing punctuation
+		if dlg: line = "* [Dialogue](" + html + ")\n"
+		else: line = "* [No. %d](%s) - %s - \"%s\"\n" % (song, html, title, firstline)
+		files[html] = line
+	if fn.endswith("index.md") and files:
+		# There are some files that aren't linked. Dump links in, at the bottom of the page;
+		# they can be adjusted and/or moved manually.
+		data.extend(v for k,v in sorted(files.items())) # Sort by file name (the dictionary key), use the value
+		changes += len(files)
 	if changes:
 		print("Changed %d lines in %s" % (changes, fn))
 		with open(fn, "w") as f: f.write("".join(data))
