@@ -1,5 +1,4 @@
 @import "markdown.css";
-* {box-sizing: border-box;}
 main {
 	width: 700px;
 	border: 10px solid #cece9c;
@@ -144,4 +143,9 @@ h4 ~ p {
 	white-space: pre-line;
 	text-align: center;
 	text-indent: 0;
+}
+
+.wo_nav {
+	display: flex;
+	justify-content: center;
 }

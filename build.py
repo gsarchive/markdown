@@ -77,7 +77,7 @@ with open("_data/toc.json", "w") as f:
 with open("_data/breadcrumbs.json", "w") as f:
 	json.dump(crumbs, f)
 with open("_data/wo_nav.json", "w") as f:
-	json.dump(wo_nav, f, indent=4)
+	json.dump(wo_nav, f)
 
 # Call on Ruby to do most of the build work
 subprocess.call(["bundle", "exec", "jekyll", "build"])
@@ -128,6 +128,7 @@ if destdir != "../live":
 		"layout/wo_nav/purp_wostrip/lastpage.jpg",
 		"layout/wo_nav/purp_wostrip/lastsong.jpg",
 		"layout/wo_nav/purp_wostrip/webohome.jpg",
+		"layout/wo_nav/purp_wostrip/pagetop.jpg", # Not really needed, but removing it would require redoing the gradient
 		"layout/wo_nav/purp_wostrip/nextsong.jpg",
 		"layout/wo_nav/purp_wostrip/nextpage.jpg",
 		"gilbert/plays/excellency/graphics/title.gif",
