@@ -19,6 +19,10 @@ try: os.mkdir("_data")
 except OSError: pass # TODO as below, only ignore "exists"
 
 toc, links, trail, crumbs = { }, { }, { }, { }
+# To customize the breadcrumb trail, or provide a trail through non-Markdown files, add them here:
+# TODO: Move this into config.yml and deduplicate the URL
+links["gilbert/plays/excellency"] = "[His Excellency](/gilbert/plays/excellency/his_excellency.html)"
+# Note that you can customize the breadcrumb for a page independently of its title using frontmatter "breadcrumb: Short Title"
 for root, dirs, files in os.walk("."):
 	# Don't recurse into any underscore or dot prefixed directories
 	dirs[:] = [d for d in dirs if d == d.lstrip("_.")]
@@ -43,13 +47,14 @@ for root, dirs, files in os.walk("."):
 			# "target: whatever.html" in the Markdown frontmatter.
 			destname = front.get("target") or os.path.basename(name).replace(".md", ".html")
 			dest = os.path.normpath(name + "/../" + destname)
-			links[path] = "[%s](/%s)" % (front["title"], dest)
+			links[path] = "[%s](/%s)" % (front.get("breadcrumb", front["title"]), dest)
 		# For all pages, look for a parent and copy in the breadcrumbs and title
 		parent = os.path.normpath(path + "/../" + front.get("parent", "."))
 		trail[path] = trail.get(parent, [])
 		par = links.get(parent)
 		if par: trail[path] = trail[path] + [par]
 		crumbs[name] = trail[path]
+
 with open("_data/toc.json", "w") as f:
 	json.dump(toc, f)
 with open("_data/breadcrumbs.json", "w") as f:

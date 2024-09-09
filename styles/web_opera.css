@@ -1,0 +1,131 @@
+@import "markdown.css";
+* {box-sizing: border-box;}
+main {
+	width: 700px;
+	border: 10px solid #cece9c;
+	border-radius: 10px;
+	margin: auto;
+	background: #feffe6;
+	padding: 10px;
+}
+
+header {
+	width: 750px;
+	border: 6px outset #CECE9C;
+	display: flex;
+	position: relative;
+	left: -50px;
+	background: #feffe6;
+}
+header > * {
+	display: block;
+	border: 6px inset #CECE9C;
+}
+section {
+	display: flex;
+}
+
+.imagebox {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin: 1em;
+}
+
+/* The below styles are largely retained from princess_ida/ida.css */
+body {
+	width: 100vw;
+	background-image: url(graphics/back.jpg);
+	background-color: #DFC8BA;
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+p {
+	font-size: 16px;
+	text-indent: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #7E2929;
+	text-align: center;
+}
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #7E2929;
+	text-align: center;
+}
+.copyright {
+	font-size: 14px;
+	color: #666666;
+	margin: auto;
+	text-align: center;
+}
+
+.menuitem {
+	font-size: 14px;
+	color: #000000;
+}
+.here {
+	font-size: 14px;
+	color: #666666;
+}
+
+
+a:link {
+	color: #3300CC;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #424200;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+}
+
+.linkstab {
+	border: 6px double #CECE9C;
+}
+
+.subhead {
+	font-size: 20px;
+	font-weight: bold;
+	color: #660033;
+}
+
+.toc {
+	font-size: 14px;
+}
+.toc ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+.toc li {
+	margin: 0 3px;
+}
+
+.pageheader {
+	font-size: 16px;
+	color: #000099;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center
+}
+
+.titlecard {
+	flex-grow: 1;
+	background-position: center;
+	background-repeat: no-repeat;
+}

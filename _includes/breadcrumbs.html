@@ -6,5 +6,5 @@ Generate breadcrumb navigation from the headings collected by the Python build s
 {%-for link in site.data.breadcrumbs[page.path] %}
 <span class="youare"> &gt; </span><span class="here" markdown=1>{{link}}</span>
 {%-endfor-%}
-<span class="youare"> &gt; </span><span class="here">{{page.title}}</span>
+<span class="youare"> &gt; </span><span class="here">{{page.breadcrumb || page.title}}</span>
 </nav>

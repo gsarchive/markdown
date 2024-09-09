@@ -1,14 +1,15 @@
 ---
-title: His Excellency by WS Gilbert and Osmond Carr
+title: His Excellency Web Opera
+breadcrumb: Web Opera
 description: Web Opera for &quot;His Excellency&quot; at the Gilbert and Sullivan Archive
 keywords: carr, gilbert, d'oyly carte, savoy, excellency
+stylesheet: /styles/web_opera.css
 ---
 
 {% include breadcrumbs.html %}
 <header>
     <a href="../../index.html"><img src="https://gsarchive.net/layout/images/logo3sm.jpg" alt="The Gilbert and Sullivan Archive" width="200" height="133" border="0"></a>
-    <!-- TODO: Configure this from the page -->
-    <div><img src="../graphics/title.gif" alt="His Excellency" width="399" height="89"></div>
+    <div class=titlecard style="background-color: #515056; background-image: url(../graphics/title.gif)" title="His Excellency"></div>
 </header>
 
 ## WEB OPERA
@@ -16,7 +17,7 @@ keywords: carr, gilbert, d'oyly carte, savoy, excellency
 ### All the music, lyrics, and dialogue
 
 Individual MIDI and Karaoke files can be accessed from the pages for the relevant number.
-Alternatively, complete sets can be downloaded as Zip files:
+Alternatively, complete sets can be downloaded as Zip files:<br>
 [MIDI Files](../midi/excellency_midi.zip) [Karaoke Files](../midi/excellency_karaoke.zip)
 
 -----
