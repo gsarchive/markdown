@@ -3,7 +3,7 @@
 # all filenames are ASCII. It's sad to have to say that in 2022, but
 # the G&S Archive doesn't seem to have Python 3 installed.
 import json
-import os
+import os.path
 import subprocess
 import sys
 import yaml # ImportError? pip install pyyaml
@@ -56,7 +56,7 @@ with open("_data/breadcrumbs.json", "w") as f:
 	json.dump(crumbs, f)
 
 # Call on Ruby to do most of the build work
-subprocess.call(["jekyll", "build"])
+subprocess.call(["bundle", "exec", "jekyll", "build"])
 
 # Move files from _site to ../public_html
 
