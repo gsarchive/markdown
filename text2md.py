@@ -33,15 +33,15 @@ def process(fn):
 			if int(num) != song:
 				data[i] = "%s%02d.%s%s" % (line[:m.start()], song, ext, line[m.end():])
 				changes += 1
-		elif m := re.match(r"^([A-Z 0-9,]+( and )?[A-Z 0-9,]*\.)(.*)$", line, re.M):
+		elif m := re.match(r"^([A-Z 0-9,]+(?: and )?[A-Z 0-9,]*\.)(.*)$", line, re.M):
 			# eg "PERSON. Lorem ipsum dolor sit amet!"
-			person, _, firstline = m.groups()
+			person, firstline = m.groups()
 			if dlg: data[i] = "\n**" + person + "** " + firstline.strip() + "\n"
 			else: data[i] = "#### " + person + "\n" + firstline.strip() + "\n"
 			changes += 1
-		elif m := re.match(r"^([A-Z 0-9,]+)( and )?[A-Z 0-9,]* (\([^)]+\.?\)\.?)(.*)$", line, re.M):
+		elif m := re.match(r"^([A-Z 0-9,]+(?: and )?[A-Z 0-9,]*) (\([^)]+\.?\)\.?)(.*)$", line, re.M):
 			# eg "PERSON (softly). Lorem ipsum dolor sit amet?"
-			person, _, style, firstline = m.groups()
+			person, style, firstline = m.groups()
 			if dlg: data[i] = "\n**" + person + "** *" + style + "* " + firstline.strip() + "\n"
 			else: data[i] = "#### " + person + " *" + style + "*\n" + firstline.strip() + "\n"
 			changes += 1

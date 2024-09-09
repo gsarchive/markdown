@@ -50,3 +50,4 @@ Alternatively, complete sets can be downloaded as Zip files:
 * [No. 11](hex11.html) - Song - Nanna - "My wedded life"
 * [Dialogue](hex11d.html)
 * [No. 12](hex12.html) - Finale of Act I - "To the Regent — the Regent — the Regent, away"
+* [No. 13](hex13.html) - Opening Chorus - " Thank you Private Griffenfeld"
