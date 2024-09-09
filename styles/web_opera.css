@@ -1,6 +1,6 @@
 @import "markdown.css";
 main {
-	width: 700px;
+	width: 900px;
 	border: 10px solid #cece9c;
 	border-radius: 10px;
 	margin: auto;
@@ -9,7 +9,7 @@ main {
 }
 
 header {
-	width: 750px;
+	width: 950px;
 	border: 6px outset #CECE9C;
 	display: flex;
 	position: relative;
