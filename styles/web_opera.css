@@ -134,3 +134,14 @@ a:active {
 	display: flex;
 	justify-content: space-around;
 }
+
+/* HACK: Head-four is used to indicate who is speaking */
+h4 {
+	position: absolute;
+	margin: 0 0 0 2em;
+}
+h4 ~ p {
+	white-space: pre-line;
+	text-align: center;
+	text-indent: 0;
+}

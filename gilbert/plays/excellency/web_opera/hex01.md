@@ -24,6 +24,7 @@ Denmark, which occupies the center of the stage. Colours flying, bells ringing, 
 and general symptoms of rejoicing.*
 
 ### OPENING CHORUS.
+#### &nbsp;
 Set the merry bunting flying,
 Fire the cannon — ring the bells — 
 Our great townsman glorifying,
@@ -36,7 +37,8 @@ It assumes, in manner plastic,
 Shapes heroic — shapes fantastic,
 As his mighty will compels!
 
-SYNDIC. Chosen from his fellow creatures
+#### SYNDIC.
+Chosen from his fellow creatures
 By our King — ’twas wisely done —
 To perpetuate the features
 Of the Regent Prince, his son —
@@ -45,7 +47,8 @@ At our gracious King’s decree,
 Sculptor to the Court of Denmark
 And the Royal Familee!
 
-ALL. Sculptor to the Court of Denmark
+#### ALL.
+Sculptor to the Court of Denmark
 And the Royal Familee!
 Leisure take — festina lentè —
 You have time before you, plenty,
@@ -65,7 +68,8 @@ For lack of that sunbeam of Royal favour,
 Which by sheer April chance, had fallen on me
 And warmed by budding powers into blossom!
 
-CHORUS. No, no!
+#### CHORUS.
+No, no!
 No April chance is here —
 Thine art hath no compeer —
 It triumphs all completely:
@@ -75,15 +79,18 @@ So wisely, so discreetly!
 So scatter flowers at his feet,
 Sing him songs of jubilation, 
 And the king of sculptors greet
-With a rosy coronation! (Crowning him with flowers.)
+With a rosy coronation! *(Crowning him with flowers.)*
 
-MEN. Raise him on our brawny shoulders
-Cynosure of all beholders. (They do so.)
+#### MEN.
+Raise him on our brawny shoulders
+Cynosure of all beholders. *(They do so.)*
 
-WOMEN. Hail him, scholar — hail him, gownsman —
+#### WOMEN.
+Hail him, scholar — hail him, gownsman —
 As your worthiest fellow townsman!
 
-ALL. Hail him, dunce and ignoramus,
+#### ALL.
+Hail him, dunce and ignoramus,
 For his fame will make you famous —
 Hail him great and small,
 Hail him one, and hail him all!
