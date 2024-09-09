@@ -94,3 +94,19 @@ for root, dirs, files in os.walk("_site"):
 			if e.errno != 2: raise
 		with open(dest + "/" + destname, "w") as f:
 			f.write(data)
+
+# For the benefit of local testing, allow some quick copy-in cloning from live.
+if destdir != "../live":
+	files = [
+		"layout/images/page_frame/cream_back.gif",
+		"gilbert/plays/excellency/graphics/title.gif",
+	]
+	for fn in files:
+		if not os.path.exists(destdir + "/" + fn):
+			# Only check for the presence of ../live if there's something missing.
+			# That'll be faster than pinging a remote server unnecessarily.
+			print("Copying", fn, "...")
+			print(os.path.dirname(destdir + "/" + fn))
+			os.makedirs(os.path.dirname(destdir + "/" + fn), exist_ok=True)
+			with open("../live/" + fn, "rb") as i, open(destdir + "/" + fn, "wb") as o:
+				o.write(i.read()) # Assume file is small enough to fit in memory
