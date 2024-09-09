@@ -39,6 +39,20 @@ def process(fn):
 			person, style, firstline = m.groups()
 			data[i] = "\n**" + person + "** *" + style + "* " + firstline.strip() + "\n"
 			changes += 1
+		# Check for any parenthesized sections. These might be actual spoken parentheses, or
+		# they might be stage directions. Since stage directions are more common, and it's
+		# easier to spot italicized text than to notice what ought to be italicized, we make
+		# EVERY parenthesis emphasized. That said, though, this only makes sense the first
+		# time we check this; so we only do this check if there are other changes already
+		# being made. That way, if you delete the asterisks manually, they won't come back
+		# unless you disrupt it in some way (easiest is to damage the song number somewhere).
+		if changes:
+			# Note that we use data[i] rather than line, in case this line has itself been changed already
+			modified = re.sub(r"(?<![]a-z*[])(\([^)]+\.?\)\.?)(?!\*)", "*\\1*", data[i])
+			if modified != line:
+				data[i] = modified
+				changes += 1
+				pass
 	if changes:
 		print("Changed %d lines in %s" % (changes, fn))
 		with open(fn, "w") as f: f.write("".join(data))

@@ -46,7 +46,7 @@ to him from 10 to 2, 1 should always be true to you from 2 to 10.
 
 **ELSA.** Take care, the Governor’s coming.
 
-**HAROLD.** Oh, confound it — off we go again! (Soldiers resume dancing.)
+**HAROLD.** Oh, confound it — off we go again! *(Soldiers resume dancing.)*
 
 *Enter GOVERNOR GRIFFENFELD. He has a pound of butter in his hand.*
 
@@ -219,7 +219,7 @@ and I’ll hand it to him.
 
 **DAME.** Why, the date of our marriage, you ardent creature!
 
-**GRIFFENFELD.** Oh, yes! — come and sit down, and we’ll talk it over. (She sits at his feet.) There
+**GRIFFENFELD.** Oh, yes! — come and sit down, and we’ll talk it over. *(She sits at his feet.)* There
 — like that. Cosy, isn’t it?
 
 **DAME** *(shyly).* Oh, George!

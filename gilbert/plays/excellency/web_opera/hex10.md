@@ -47,7 +47,8 @@ Of all I know
 I’ll give no clue,
 You little roguey poguey, you!
 You little roguey poguey!
-DAME (indignantly). Sir!
+#### DAME *(indignantly).*
+Sir!
 #### SYNDIC.
 You little roguey poguey!
 #### DAME.

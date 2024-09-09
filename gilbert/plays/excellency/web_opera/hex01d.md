@@ -16,7 +16,7 @@ stylesheet: /styles/web_opera.css
 
 **ERLING.** That’s a typical instance of feminine perversity — doesn’t fall in love with me,
 which would be rational enough, but with the senseless inanimate work of my
-hands! My dear fellow (addressing statue), I little thought, when I cut you out,
+hands! My dear fellow *(addressing statue)*, I little thought, when I cut you out,
 that in course of time you’d return the compliment!
 
 *Enter TORTENSSEN*
