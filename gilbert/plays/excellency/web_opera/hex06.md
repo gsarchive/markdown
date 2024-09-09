@@ -14,8 +14,8 @@ stylesheet: /styles/web_opera.css
 
 ## No. 6: DUET. — GRIFFENFELD and DAME CORTLANDT.
 
-[ ![](/layout/images/midi.gif) MIDI file](../midi/hex04.mid)
-[ ![](/layout/images/midi_karaoke.gif) Karaoke file](../midi/kar/hex04.kar)
+[ ![](/layout/images/midi.gif) MIDI file](../midi/hex06.mid)
+[ ![](/layout/images/midi_karaoke.gif) Karaoke file](../midi/kar/hex06.kar)
 {:.musiclinks}
 
 #### DAME.

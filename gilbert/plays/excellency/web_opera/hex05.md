@@ -14,8 +14,8 @@ stylesheet: /styles/web_opera.css
 
 ## No. 5: CHORUS.
 
-[ ![](/layout/images/midi.gif) MIDI file](../midi/hex04.mid)
-[ ![](/layout/images/midi_karaoke.gif) Karaoke file](../midi/kar/hex04.kar)
+[ ![](/layout/images/midi.gif) MIDI file](../midi/hex05.mid)
+[ ![](/layout/images/midi_karaoke.gif) Karaoke file](../midi/kar/hex05.kar)
 {:.musiclinks}
 
 *Enter Chorus of Girls, led by ELLA.*
