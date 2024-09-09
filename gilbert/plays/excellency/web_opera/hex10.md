@@ -45,7 +45,8 @@ The word is mum —
 #### SYNDIC.
 Of all I know
 I’ll give no clue,
-You little roguey poguey, you!
+You little ro-
+Guey poguey, you!
 You little roguey poguey!
 #### DAME *(indignantly).*
 Sir!

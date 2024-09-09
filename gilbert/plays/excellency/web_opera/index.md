@@ -55,6 +55,16 @@ Alternatively, complete sets can be downloaded as Zip files:
 
 * [No. 13](hex13.html) - Opening Chorus - "Thank you Private Griffenfeld"
 * [Dialogue](hex13d.html)
-* [No. 14](hex14.html) - Song - Griffenfeld - "need-heading"
+* [No. 14](hex14.html) - Song - Griffenfeld - "Quixotic is his enterprise"
 * [Dialogue](hex14d.html)
-* [No. 15](hex15.html) - Duet - Harold and Blanca - " So it ends with a wedding at Hanover Square"
+* [No. 15](hex15.html) - Duet - Harold and Blanca - "So it ends with a wedding at Hanover Square"
+* [Dialogue](hex15d.html)
+* [No. 16](hex16.html) - Quartet - Syndic, Dame Cortlandt, Sentry, and Griffenfeld - "One day, the Syndic of this town"
+* [Dialogue](hex16d.html)
+* [No. 17](hex17.html) - Patter-Trio - Griffenfeld, Nanna, and Thora - "It is rough on Labouchere"
+* [Dialogue](hex17d.html)
+* [No. 18](hex18.html) - Dancing Quartet - Nanna, Thora, Erling, and Tortenssen - "All right now"
+* [Dialogue](hex18d.html)
+* [No. 19](hex19.html) - Chorus - "Ring the bells and bang the brasses"
+* [Dialogue](hex19d.html)
+* [No. 20](hex20.html) - Finale of Act II - "Who love with all sincerity, O"
