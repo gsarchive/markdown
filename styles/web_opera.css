@@ -149,3 +149,11 @@ h4 ~ p {
 	display: flex;
 	justify-content: center;
 }
+
+h4 ~ table {
+	margin: 0 auto 1em;
+}
+
+h4 ~ table td {
+	padding: 0 0.25em;
+}
