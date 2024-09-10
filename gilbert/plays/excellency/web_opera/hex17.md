@@ -69,7 +69,7 @@ When/I you occupy the chair —
 #### GRIFFENFELD.
 When the case is quite completed, then the prisoner defeated with severity is
 treated as you’re probably aware —
-For it’s awfully provided that the jury will be guided by my summary onesided — which distresses Labouchere.
+For it’s awfully provided that the jury will be guided by my summary one-sided — which distresses Labouchere.
 #### ALL.
 It is rough on Labouchere —
 It is rough on Labouchere —
