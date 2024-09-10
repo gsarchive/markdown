@@ -20,7 +20,7 @@ stylesheet: /styles/web_opera.css
 
 SCENE: *Marketplace of Elsinore. The townspeople, led by Mats Munck, the SYNDIC, are
 assembled to congratulate ERLING SYKKE on the completion of the statue of the Prince Regent of
-Denmark, which occupies the center of the stage. Colours flying, bells ringing, cannons firing,
+Denmark, which occupies the centre of the stage. Colours flying, bells ringing, cannons firing,
 and general symptoms of rejoicing.*
 
 ### OPENING CHORUS.
