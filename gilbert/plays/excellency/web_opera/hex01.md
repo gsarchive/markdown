@@ -18,7 +18,7 @@ stylesheet: /styles/web_opera.css
 [ ![](/layout/images/midi_karaoke.gif) Karaoke file](../midi/kar/hex01.kar)
 {:.musiclinks}
 
-SCENE: *Marketplace of Elsinore. The townspeople, led by Mats Munck, the SYNDIC, are
+SCENE: *Marketplace of Elsinore. The townspeople (led by Mats Munck, the SYNDIC) are
 assembled to congratulate ERLING SYKKE on the completion of the statue of the Prince Regent of
 Denmark, which occupies the centre of the stage. Colours flying, bells ringing, cannons firing,
 and general symptoms of rejoicing.*
