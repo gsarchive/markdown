@@ -23,7 +23,7 @@ Quixotic is his enterprise, and hopeless his adventure is,
 Who seeks for jocularities that haven’t yet been said.
 The world has joked incessantly for over fifty centuries,
 And every joke that’s possible has long ago been made.
-I started as a humorist with lots of mental fizziness,
+I started as a humourist with lots of mental fizziness,
 But humour is a drug which it’s the fashion to abuse;
 For my stock in trade, my fixtures, and the goodwill of the business
 No reasonable offer I am likely to refuse.

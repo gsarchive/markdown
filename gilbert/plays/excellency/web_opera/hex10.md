@@ -26,7 +26,7 @@ Be he a friend or foe.
 #### SYNDIC.
 You lean no broken reed upon, O —
 In Courts of Law and Venus
-(I’ve practiced much in both)
+(I’ve practised much in both)
 I’m always on my oath!
 #### DAME.
 What always?
@@ -95,7 +95,8 @@ Though close at hand
 That joyous day
 When I may sip
 Their honey dew —
-You little pipSy wipsy you!
+You little pip
+-Sy wipsy you!
 You little pipsy wipsy!
 #### DAME.
 Sir!
