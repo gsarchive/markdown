@@ -72,7 +72,7 @@ treated as you’re probably aware —
 For it’s awfully provided that the jury will be guided by my summary one-sided — which distresses Labouchere.
 #### ALL.
 It is rough on Labouchere —
-It is rough on Labouchere —
+It is hard on Labouchere —
 Oh, the dickens, how it sickens tender-hearted Labouchere!
 
 *Exit GRIFFENFELD*

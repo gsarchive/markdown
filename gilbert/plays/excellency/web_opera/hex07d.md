@@ -63,19 +63,19 @@ living man! “Somewhat unmaidenly, this avowal — is it not, Christina?” It 
 seem so, my Lord. “Thou shouldst have waited until I gave some sign.” I might
 have waited long, my lord, for your Highness is strangely reticent; and I might
 have peaked, pined, dwindled, drooped, and died in the waiting. “That were
-pitiful indeed, Christina?” I thank your lordship. Will you hear a poor ballad, my
-lord? “If it be fairly sung, Christina, and not too long?” It is not long, my lord,
+pitiful indeed, Christina.” I thank your lordship. Will you hear a poor ballad, my
+lord? “If it be fairly sung, Christina, and not too long.” It is not long, my lord,
 and I will sing it with all my poor skill, so it shall please you. “Well, tune up,
-Christina — but I have no change?” I thank your Highness; I sing to you, not for
-your money, but for your love. The song runneth thus: — *(sees REGENT, who
-comes forward, offering her his guitar.)* Oh, sir! Ah! *(Looks a statue, then at
+Christina — but I have no small change?” I thank your Highness; I sing to you, not
+for your money, but for your love. The song runneth thus: — *(sees REGENT, who
+comes forward, offering her the guitar.)* Oh, sir! Ah! *(Looks at statue, then at
 REGENT, and shows signs of terror.)*
 
 **REGENT.** Why, what is amiss with thee?
 
 **CHRISTINA.** Sir, I am frightened! I thought at first — but I am a silly fool! I ask your pardon;
 but— you are so strangely like the Regent’s statue, that, for the moment, I — oh,
-who are you?
+*who* are you?
 
 **REGENT.** I am Nils Egilsson — a strolling player — a flotsam and jetsam on the world’s
 tide — tossed hither and thither as the wild waves will; but come good, come ill,
@@ -83,7 +83,7 @@ always at the service of all pretty maids who need my offices.
 
 **CHRISTINA.** Then — you are not a prince?
 
-**REGENT.** Not a prince? Oh, but I am a prince — very often! Every prince in turn from
+**REGENT.** Not a prince? Oh, but I *am* a prince — very often! Every prince in turn from
 Nebuchadnezzar down to Louis the Sixteenth, when an engagement offers. A
 trifle out of repair just now, but even your theatrical princes have their
 vicissitudes, and Elsinore is not stage struck. But times may mend, and who

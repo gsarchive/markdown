@@ -101,7 +101,7 @@ On open doors —
 #### ALL.
 Prepared with these cheap properties,
     amusing tricks to play,
-Upon a friend a man can spend
+Upon a friend a man may spend
     a most delightful day!
 *Exeunt.*
 

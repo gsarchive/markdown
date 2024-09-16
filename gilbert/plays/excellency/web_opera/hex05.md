@@ -57,10 +57,10 @@ Bother the Governor’s fun, say we!
 #### HAROLD.
 Oh you may laugh at our dancing-schoolery —
 It’s all very well, it amuses you,
-But how would you like this dashed tomfoolery
+But how would *you* like this dashed tomfoolery
 Every day from ten to two?
 #### SOLDIERS.
-How would you like this dashed tomfoolery
+How would *you* like this dashed tomfoolery
 Every day from ten to two?
 
 {% include wo_nav.html %}

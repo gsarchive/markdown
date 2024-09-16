@@ -16,18 +16,18 @@ stylesheet: /styles/web_opera.css
 
 **HAROLD** *(to Soldiers).* You can halt for a moment. The Governor’s stopped to make a butter
 slide on the Syndic’s doorstep. *(Soldiers halt — to BLANCA.)* It’s a little unkind to
-laugh at us, Blanca, for you know we can’t help it — from 10 to 2.
+laugh at us, Blanca, for you know *we* can’t help it — from 10 to 2.
 
-**BLANCA.** It’s a little unkind to complain of our laughing at you, for you know we can’t help
+**BLANCA.** It’s a little unkind to complain of our laughing at you, for you know *we* can’t help
 it — from 10 to 2.
 
-**ELSA.** We can none of us help it — you’re all so ridiculous!
+**ELSA.** We can none of us help it — you’re *all* so ridiculous!
 
 **HAROLD.** I think my betrothed wife might sympathize with the absurdity of my position. I
 think all our betrothed wives might sympathize with the absurdity of all our
 positions.
 
-**ELSA.** We sympathize with you as hard as we can, after 2. We can’t do it before 2,
+**ELSA.** We sympathize with you as hard as we can, *after* 2. We can’t do it *before* 2,
 because we’re laughing all the time.
 
 **BLANCA.** From 2 to 10 you’re men, and we’re engaged to you. From 10 to 2 you’re

@@ -57,7 +57,8 @@ Observing the Corporal, said —
 “It would be nothing short of a public disgrace
 To keep such a trump in a Corporal’s place —
 So we’ll make him a Colonel, all covered with lace.”
-#### BLANCA *(to audience).*
+#### BLANCA *(confidentially to audience).*
+&nbsp;
 The Regent was weak in the head!
 #### HAROLD.
 She, taking the facts at a glance,

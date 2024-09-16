@@ -42,7 +42,8 @@ dear; good day to you. Pleased to see you, pleased to see you ——”
 Don’t you think so, Count?
 
 **ERLING.** I really think it’s only what is due to us, Baron, I do indeed.
-The Girls come forward pretending to weep bitterly.
+
+*The Girls come forward pretending to weep bitterly.*
 
 **NANNA** *(in affected tears).* Oh, please, we’ve been thinking it over, and we’re very sorry we were
 so un-kuk-kuk-kuk-kind to you just now.
@@ -58,7 +59,8 @@ consequence. There — go away — there’s good girls.
 such a par-par-particular pa-pa-papa!
 
 **THORA.** And we’re so afraid of Mrs. Gug-gug-gug-Grundy! *(Violent burst of tears.)*
-Both burst into floods of tears.
+
+*Both burst into floods of tears.*
 
 | | *Together.*
 |-|-

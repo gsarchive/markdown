@@ -41,7 +41,7 @@ Give every man his heart’s desire,
 Then I’ll explain the ins and outs —
 In half an hour or thereabouts!
 #### BOTH.
-Then I’ll/he’ll explain the ins and outs —
+Then I’ll/you’ll explain the ins and outs —
 In half an hour or thereabouts!
 Oh, human joy at best is brief —
 Alas, too soon it’s turned to grief!

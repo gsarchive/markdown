@@ -25,26 +25,26 @@ was speaking to the Regent himself!
 
 **REGENT.** Well, I can scarcely say. We have never met, face to face.
 
-**CHRISTINA** *(disappointed).* Then you do not know him.
+**CHRISTINA** *(disappointed).* Then you do *not* know him.
 
-**REGENT.** Very good — then I do not know him: but — I know his tailor.
+**REGENT.** Very good — then I do *not* know him: but — I know his tailor.
 
 **CHRISTINA.** His tailor?
 
 **REGENT.** Yes. I frequently see his tailor, and his tailor tells me, in strictest confidence, that
-*(impressively)* his Highness is at least three inches more round the waist than he
+*(impressively)* his Highness is *at least three inches more round the waist* than he
 is here represented to be! So be prepared for a disappointment!
 
 **CHRISTINA** *(laughing).* Why, sir, I believe there is nothing in this wide world that concerns me
 less than the measure of his Highness’s waist! Such a trifle weighs but little with
-me.
+*me*.
 
 **REGENT** *(aside).* It weighs a good deal with me! *(Aloud.)* And do you pass much time in the
 society of his highness’s effigy?
 
 **CHRISTINA.** Why, in truth, much more than is prudent.
 
-**REGENT.** Oh, he won’t hurt you — I should say that you were quite safe with him. But
+**REGENT.** Oh, *he* won’t hurt you — I should say that you were quite safe with *him*. But
 beware of the Regent himself, for men say that he is a terrible Turk!
 
 **CHRISTINA.** The Regent, sir, is nought to me. Yet, to speak truly, I am loth to believe that
@@ -132,7 +132,7 @@ princes, and so forth?
 — you may have remarked it — which is eminently suited to your monarchs of
 genteel comedy. My tyrants, too, are much admired. “What, bearded to our face,
 and by a very boy? The moat is dry — load him with chains, and stifle him in its
-reeking mud! Ha! ha! I will be obeyed!”
+reeking mud! Ha! ha! I *will* be obeyed!”
 
 **GRIFFENFELD.** Yes — that’s not good, you know. Rather amateurish, I should say. Played a long
 engagement in the Theatre Royal Back Drawing Room, I should imagine. By the

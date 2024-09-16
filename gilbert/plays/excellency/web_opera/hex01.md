@@ -50,10 +50,10 @@ And the Royal Familee!
 #### ALL.
 Sculptor to the Court of Denmark
 And the Royal Familee!
-Leisure take — festina lentè —
+Leisure take — *festina lentè* —
 You have time before you, plenty,
 When at only two-and-twenty,
-(Nemine dissentientè)
+*(Nemine dissentientè)*
 You’re created with a penmark
 Sculptor to the Court of Denmark —
 Sculptor to the Court of Denmark
@@ -79,7 +79,8 @@ So wisely, so discreetly!
 So scatter flowers at his feet,
 Sing him songs of jubilation, 
 And the king of sculptors greet
-With a rosy coronation! *(Crowning him with flowers.)*
+With a rosy coronation!
+*(Crowning him with flowers.)*
 
 #### MEN.
 Raise him on our brawny shoulders

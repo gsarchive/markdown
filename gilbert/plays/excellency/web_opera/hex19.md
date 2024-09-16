@@ -28,6 +28,6 @@ Will be duly coupled soon.
 When, in Castle chapel plighted,
 Man and maid are once united,
 Off they’ll go in mood delighted
-On a happy honeymoon.
+On a happy honeymoon!
 
 {% include wo_nav.html %}

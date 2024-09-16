@@ -41,7 +41,9 @@ This tuppeny ha’penny lump of spite!
 #### ALL.
 This tuppeny ha’penny, tuppeny ha’penny,
 Tuppeny ha’penny lump of spite!
-CHRISTINA comes forward.
+
+*CHRISTINA comes forward.*
+
 ### RECITATIVE — CHRISTINA.
 Be comforted — his downfall I foresee,
 All who exceed the bounds of strict simplicity,
@@ -110,7 +112,9 @@ Buzz, buzz, buzz, buzz.
 All came of trying to swarm alone.
 #### ALL.
 All came of trying, etc.
-Enter SYNDIC from Castle.
+
+*Enter SYNDIC from Castle.*
+
 #### ALL.
 Well, well — what news?
 Does he refuse
@@ -144,7 +148,9 @@ Good-bye!
 Good-bye!
 #### ALL.
 Good-bye to the Governor Griffenfeld!
-Enter NANNA and THORA. They come forward humbly.
+
+*Enter NANNA and THORA. They come forward humbly.*
+
 #### ERLING and TORTENSSEN *(recit.)*
 &nbsp;
 Ah, false one!

@@ -21,7 +21,8 @@ statue! Every hope and every fear of my life lies within the four corners of thi
 document. What may it not contain? Perhaps an order on the King’s Treasurer for
 my ten thousand rix-dollars! Perhaps my appointment as Court sculptor! Perhaps
 even my patent of Countship! I tremble so that I can scarcely open it!
-NANNA has entered at the back. She creeps up to him with suppressed fun in her face.
+
+*NANNA has entered at the back. She creeps up to him with suppressed fun in her face.*
 
 **NANNA.** Oh, what a big letter! Whom is it from, and what’s it all about?
 
@@ -33,7 +34,7 @@ the King’s private Secretary!
 
 **ERLING.** You open it — I can’t! *(Giving her the letter.)*
 
-**NANNA.** 1 can. Now then — one! two! three! *(NANNA opens it.)*
+**NANNA.** I can. Now then — one! two! three! *(NANNA opens it.)*
 
 **ERLING.** Read — read!
 
@@ -59,10 +60,10 @@ alone!
 **ERLING.** Sorry! I can’t realize it! It stuns me! It’s too cruel — too cruel! And the promise
 you made me ——
 
-**NANNA.** Oh, the promise! Yes — es — the conditional promise.
+**NANNA.** Oh, the promise! Yes — es — the *conditional* promise.
 
 **ERLING.** Don’t tell me that was a hoax too! Give me some hope to cling to! I can bear it all
-if you’ll only tell me that you won’t discard me!
+if you’ll only tell me that *you* won’t discard me!
 
 **NANNA.** Really, it’s extremely awkward; but one must be a little prudent. I’m a very
 expensive young lady, and as it seems that you have no immediate prospect of

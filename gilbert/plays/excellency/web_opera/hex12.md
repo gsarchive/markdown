@@ -93,7 +93,7 @@ But dares to play his practical jokes
 Upon my tenderest feelings!
 Assuming that for you I glowed *(to SYNDIC)*,
 You Syndical mountebank, you!
-He —
+He — *(symptoms of an approaching outbreak)*
 #### ALL.
 Pray be careful or you’ll explode!
 #### DAME *(with an effort).*
@@ -212,7 +212,7 @@ Yes, yes! Ha, ha!
 We can resist though you assume
 That attitude to sue in! 
 *(laughing derisively at GRIFFENFELD and daughters).* Ha, ha! Ha, ha! etc.
-#### GRIFFENFELD *(as if crying).*
+#### GRIFFENFELD and daughters *(as if crying).*
 Ho, ho! Ho, ho! etc.
 #### GRIFFENFELD.
 Oh, pray have mercy! Do not pour
