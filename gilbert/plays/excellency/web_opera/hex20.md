@@ -47,7 +47,7 @@ Of poor papa.
 Position low
 Degraded to!
 *(pointing to GRIFFENFELD, who is standing sentry.)*
-#### ERLING and TORTENSSEN.
+#### ERLING and TORTENSSEN (to GRIFFENFELD).
 You little ro-
 Guey poguey, you —
 #### SYNDIC.
