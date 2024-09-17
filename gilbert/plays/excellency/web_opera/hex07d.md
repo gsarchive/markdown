@@ -68,8 +68,9 @@ lord? “If it be fairly sung, Christina, and not too long.” It is not long, m
 and I will sing it with all my poor skill, so it shall please you. “Well, tune up,
 Christina — but I have no small change?” I thank your Highness; I sing to you, not
 for your money, but for your love. The song runneth thus: — *(sees REGENT, who
-comes forward, offering her the guitar.)* Oh, sir! Ah! *(Looks at statue, then at
-REGENT, and shows signs of terror.)*
+comes forward, offering her the guitar.)* Oh, sir!
+
+**CHRISTINA.** Ah! *(Looks at statue, then at REGENT, and shows signs of terror.)*
 
 **REGENT.** Why, what is amiss with thee?
 

@@ -23,6 +23,10 @@ Alternatively, complete sets can be downloaded as Zip files:
 [ ![](/layout/images/midi_karaoke.gif) Karaoke files](../midi/excellency_karaoke.zip)
 {:.musiclinks}
 
+The text and lyrics below have been primarily contributed by Clifton Coles, taken from
+"Plays and Poems" by WS Gilbert. Some discrepancies may exist between this and other
+editions.
+
 -----
 
 ### ACT I - Market Place of Elsinore.

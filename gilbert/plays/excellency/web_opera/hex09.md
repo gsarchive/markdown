@@ -43,6 +43,7 @@ In half an hour or thereabouts!
 #### BOTH.
 Then I’ll/you’ll explain the ins and outs —
 In half an hour or thereabouts!
+#### ENSEMBLE.
 Oh, human joy at best is brief —
 Alas, too soon it’s turned to grief!
 So it’s our duty, you’ll allow,
@@ -91,7 +92,7 @@ I’ll curtsey with humility,
 And always “Royal Highness” you!
 I won’t forget — I won’t forget —
 I’ll always “Royal Highness” you!
-#### BOTH.
+#### ENSEMBLE.
 Oh, never was seen
 Such a pearl of a Prince,
 With his/my dignified mien 
