@@ -43,3 +43,7 @@ published on IMSLP. Typos and other corrections can be directed to the Archive's
 * [Dialogue](aiw02d.html)
 * [No. 3](aiw03.html) - "You Are Old, Father William"
 * [Dialogue](aiw03d.html)
+* [No. 4](aiw04.html) - "Speak Roughly To Your Little Boy"
+* [Dialogue](aiw04d.html)
+* [No. 5](aiw05.html) - "Cheshire Puss, My Thanks To Thee"
+* [Dialogue](aiw05d.html)
