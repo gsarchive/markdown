@@ -34,8 +34,8 @@ The text here has been graciously made available by [Charlie Lovett](https://cha
 
 ### ACT I - In Wonderland.
 
-* [No. 1](aiw01.html) - Opening Chorus - Christina - "Sleep, Alice, sleep"
-* [Dialogue](hex01d.html)
+* [No. 1](aiw01.html) - Opening Chorus - "Sleep, Alice, sleep"
+* [Dialogue](aiw01d.html)
 
 ### ACT II - Through the Looking-Glass.
 
