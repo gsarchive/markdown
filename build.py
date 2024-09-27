@@ -22,6 +22,7 @@ toc, links, trail, crumbs = { }, { }, { }, { }
 # To customize the breadcrumb trail, or provide a trail through non-Markdown files, add them here:
 # TODO: Move this into config.yml and deduplicate the URL
 links["gilbert/plays/excellency"] = "[His Excellency](/gilbert/plays/excellency/his_excellency.html)"
+links["british/alice"] = "[Alice in Wonderland](/british/alice/index.html)"
 # Note that you can customize the breadcrumb for a page independently of its title using frontmatter "breadcrumb: Short Title"
 wo_nav = {"lastpage": { }, "lastsong": { }, "nextsong": { }, "nextpage": { }}
 for root, dirs, files in os.walk("."):
@@ -132,6 +133,7 @@ if destdir != "../live":
 		"layout/wo_nav/purp_wostrip/nextsong.jpg",
 		"layout/wo_nav/purp_wostrip/nextpage.jpg",
 		"gilbert/plays/excellency/graphics/title.gif",
+		"british/alice/graphics/title.gif",
 	]
 	for fn in files:
 		if not os.path.exists(destdir + "/" + fn):
