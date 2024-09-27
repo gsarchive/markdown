@@ -1,5 +1,11 @@
 Transcript prior to the construction of a Markdown Web Opera
 
+TODO:
+* Transcribe the rest of the dialogue
+* Transcribe the songs from https://ks15.imslp.org/files/imglnks/usimg/1/16/IMSLP331132-SIBLEY1802.24207.56cc-39087011142801score.pdf
+  or https://imslp.org/wiki/Alice_in_Wonderland_(Slaughter%2C_Walter) if that link doesn't work
+* Pick up all the ancillary MIDI files and have links from the dialogue pages (see eg aiw01d.md and aiw01a.mid)
+
 Act I
 =====
 

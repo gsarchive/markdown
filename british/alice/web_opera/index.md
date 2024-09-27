@@ -28,7 +28,10 @@ Alternatively, the complete set can be downloaded as a Zip file:
 <!-- [ ![](/layout/images/midi_karaoke.gif) Karaoke files](../midi/alice_karaoke.zip) -->
 {:.musiclinks}
 
-The text here has been graciously made available by [Charlie Lovett](https://charlielovett.com/) via his book, "Alice on Stage". These pages approximately follow the text from the 1886 publication. Typos and other corrections can be directed to the Archive's curators.
+The text here has been graciously made available by [Charlie Lovett](https://charlielovett.com/) via his
+book, "Alice on Stage". These pages approximately follow the text from the 1886 publication. Song lyrics
+are from the [1896 music score](https://imslp.org/wiki/Alice_in_Wonderland_%28Slaughter%2C_Walter%29) as
+published on IMSLP. Typos and other corrections can be directed to the Archive's curators.
 
 -----
 
@@ -36,8 +39,5 @@ The text here has been graciously made available by [Charlie Lovett](https://cha
 
 * [No. 1](aiw01.html) - Opening Chorus - "Sleep, Alice, sleep"
 * [Dialogue](aiw01d.html)
-
-### ACT II - Through the Looking-Glass.
-
-* [No. 13](aiw13.html) - Opening Chorus - "Here ranged in due order"
-* [Dialogue](aiw13d.html)
+* [No. 2](aiw02.html) - "How Doth the Little Crocodile"
+* [Dialogue](aiw02d.html)

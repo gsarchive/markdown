@@ -12,6 +12,7 @@ def process(fn):
 	changes = 0
 	title = "???"
 	firstline = "need-heading"
+	last_person = {}
 	for i, line in enumerate(data):
 		# Quick check for trailing whitespace. Note that this doesn't (on its own) flag the file
 		# for save-back, but it'll be carried through if there are any other changes made.
@@ -41,6 +42,10 @@ def process(fn):
 		elif m := re.match(r"^([A-Z 0-9,]+(?: and )?[A-Z 0-9,]*\.)(.*)$", line, re.M):
 			# eg "PERSON. Lorem ipsum dolor sit amet!"
 			person, firstline = m.groups()
+			if len(person) == 2: # Abbreviated form eg "A." - expands to most recent name starting with that letter
+				person = last_person[person[0]]
+			else:
+				last_person[person[0]] = person
 			if dlg: data[i] = "\n**" + person + "** " + firstline.strip() + "\n"
 			else: data[i] = "#### " + person + "\n" + firstline.strip() + "\n"
 			changes += 1
@@ -79,6 +84,8 @@ def process(fn):
 		)
 		firstline = firstline.rstrip(",.:!— ") # No need for trailing punctuation
 		if dlg: line = "* [Dialogue](" + html + ")\n"
+		elif firstline == "need-heading": # No heading, so just use the first line
+			line = "* [No. %d](%s) - \"%s\"\n" % (song, html, title)
 		else: line = "* [No. %d](%s) - %s - \"%s\"\n" % (song, html, title, firstline)
 		files[html] = line
 	if fn.endswith("index.md") and files:

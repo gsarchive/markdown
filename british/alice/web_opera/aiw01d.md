@@ -18,6 +18,9 @@ stylesheet: /styles/web_opera.css
 Wonderland, Garden set. The CATERPILLAR discovered smoking on gigantic mushroom at side. ALICE
 wakes up, and goes up and down stage in great bewilderment. The WHITE RABBIT crosses the stage hurriedly.*
 
+[ ![](/layout/images/midi.gif) Entrance of Rabbit](../midi/aiw01a.mid)
+{:.musiclinks}
+
 **RABBIT.** Oh! the Duchess, the Duchess! Oh, won't she be savage if I've kept her waiting!
 
 **ALICE.** If you please, Sir - *(RABBIT starts and exit dropping white kid gloves and fan.)* Dear!
