@@ -36,7 +36,7 @@ for root, dirs, files in os.walk("."):
 	wo_page, wo_song, wo_prev = ".", ".", []
 	for file in files:
 		if not file.endswith(".md"): continue
-		with open(root + "/" + file) as f: data = f.read()
+		with open(root + "/" + file, encoding="utf-8") as f: data = f.read()
 		name = (root + "/" + file)[2:] # Slice off "./" at the start of the file
 		toc[name] = [chunk.split("\n", 1)[0] for chunk in ("\n" + data).split("\n## ")[1:]]
 		path = name.replace("html/", "")
@@ -73,11 +73,11 @@ for root, dirs, files in os.walk("."):
 			wo_nav["nextpage"][name] = "."
 			wo_nav["nextsong"][name] = "."
 
-with open("_data/toc.json", "w") as f:
+with open("_data/toc.json", "w", encoding="utf-8") as f:
 	json.dump(toc, f)
-with open("_data/breadcrumbs.json", "w") as f:
+with open("_data/breadcrumbs.json", "w", encoding="utf-8") as f:
 	json.dump(crumbs, f)
-with open("_data/wo_nav.json", "w") as f:
+with open("_data/wo_nav.json", "w", encoding="utf-8") as f:
 	json.dump(wo_nav, f)
 
 # Call on Ruby to do most of the build work
@@ -95,7 +95,7 @@ for root, dirs, files in os.walk("_site"):
 	for file in files:
 		# See if the file has a marker sending it elsewhere
 		destname = file
-		with open(origin + "/" + file) as f: data = f.read()
+		with open(origin + "/" + file, encoding="utf-8") as f: data = f.read()
 		for line in data.split("\n", 5)[:5]: # Scan the first five lines, max, for a "target" marker
 			_, target, fn = line.partition("MD TARGET:")
 			if target:
@@ -113,15 +113,15 @@ for root, dirs, files in os.walk("_site"):
 		# TODO: Stat the files to see if they've changed, rather than
 		# relying on a (slow) content comparison
 		try:
-			with open(dest + "/" + destname) as f:
+			with open(dest + "/" + destname, encoding="utf-8") as f:
 				if data == f.read(): continue # Not changed, don't overwrite
 		except IOError as e: # FileNotFoundError
 			if e.errno != 2: raise
-		with open(dest + "/" + destname, "w") as f:
+		with open(dest + "/" + destname, "w", encoding="utf-8") as f:
 			f.write(data)
 
 # For the benefit of local testing, allow some quick copy-in cloning from live.
-if destdir != "../live":
+if destdir != "../live" and os.path.exists("../live"):
 	files = [
 		"layout/images/page_frame/cream_back.gif",
 		"layout/images/midi.gif",
