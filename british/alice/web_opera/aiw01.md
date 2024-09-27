@@ -21,7 +21,28 @@ SCENE: *A Forest in Autumn. Alice asleep at foot of tree and Fairies dancing rou
 
 ### OPENING CHORUS.
 #### &nbsp;
-Sleep, Alice, sleep as we circle around thee
-...
+Sleep, Alice, sleep as we circle around thee,
+Lull'd by the music of bird and of bee:
+Safe in the forest, since fairies have found thee,
+Here where we come to keep tryst by the tree.
+Sleep, Alice, sleep, these are magical numbers,
+Songs that are learned from the mount and the stream.
+Ours be the task to keep watch o'er thy slumbers,
+Wake, Alice, wake to the Wonderland Dream.
+
+Wake, Alice, wake!
+Wake, Alice, wake,
+Alice!
+Alice!
+Wake to the Wonderland Dream!
+
+Sleep, Alice, sleep, as we circle around thee,
+Lull'd by the music of bird and of bee:
+Safe in the forest, since fairies have found thee,
+Here where we come to keep tryst by the tree.
+Sleep, Alice, sleep, these are magical numbers,
+Songs that are learned from the mount and the stream.
+Ours be the task to keep watch o'er thy slumbers,
+Wake, Alice, wake to the Wonderland Dream.
 
 {% include wo_nav.html %}

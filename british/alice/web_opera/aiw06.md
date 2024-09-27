@@ -19,9 +19,32 @@ stylesheet: /styles/web_opera.css
 
 ### So They Say
 
+#### HARE.
 The poor Hatter's very mad,
 So they say, so they say.
-...
+He's indubitably mad, so they say.
+Tho' why hatters should be mad, dear,
+Is a puzzle unto me, dear,
+But they are mad, all agree, dear, so they say.
+So they say, so they say, so they say.
+
+#### HATTER.
+Hares in March are very queer,
+So they say, so they say.
+And the reasons very clear, so they say.
+They are sane all thro' the Autumn
+But when Springtide winds have caught 'em
+Very mad the world has thought 'em, so they say.
+So they say, so they say, so they say.
+
+#### ALICE.
+He is very bad in March,
+So they say, so they say.
+And he lives on soap and starch, so they say.
+He is mad and so's the hatter,
+But I do not mean to flatter,
+When I say it does not matter, so they say.
+So they say, so they say, so they say.
 
 *All dance off - HARE and HATTER taking table away.*
 

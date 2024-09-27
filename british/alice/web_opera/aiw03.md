@@ -18,9 +18,32 @@ stylesheet: /styles/web_opera.css
 {:.musiclinks}
 
 ### You Are Old, Father William
+#### &nbsp;
+"You are old, Father William," the young man said,
+"And your hair has become very white.
+And yet you incessantly stand on your head:
+Do you think, at your age, it is right?"
 
-"You are old, Father William,"
-the young man said,
-...
+"In my youth," Father William replied to his son,
+"I feared it might injure my brain.
+But now I am perfectly sure I have none,
+Why, I do it again and again!"
+
+"You are old," said the youth, "as I mentioned before,
+and have grown most uncommonly fat.
+Yet you turned a back somersault in at the door:
+Pray what is the reason of that?"
+
+"In my youth," said the sage, as he shook his grey locks,
+"I kept all my limbs very supple
+By use of this ointment, a shilling a box:
+Pray allow me to sell you a couple?
+
+Pray allow me to sell you a couple,
+Pray allow me to sell you a couple,
+By use of this ointment, a shilling a box:
+Pray allow me to sell you a couple?"
+
+**NOTE: Music has DS but no second set of lyrics. Sing again? Different words?**
 
 {% include wo_nav.html %}

@@ -18,9 +18,22 @@ stylesheet: /styles/web_opera.css
 {:.musiclinks}
 
 ### Speak Roughly to your Little Boy
-
+#### &nbsp;
 Speak roughly to your little boy
 and beat him when he sneezes,
-...
+For he can thoroughly enjoy
+the pepper when he pleases.
+
+Bow, wow, wow, mew, mew mew,
+The pepper when he pleases.
+Wow, wow, wow, wow, wow, wow,
+The pepper when he pleases.
+
+Bow, wow, wow, mew, mew mew,
+The pepper when he pleases.
+Wow, wow, wow, wow, wow, wow,
+The pepper when he pleases.
+
+**NOTE: Music has DS but no second set of lyrics. Repeated?**
 
 {% include wo_nav.html %}

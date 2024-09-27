@@ -18,9 +18,20 @@ stylesheet: /styles/web_opera.css
 {:.musiclinks}
 
 ### How Doth the Little Crocodile
+#### &nbsp;
+How doth the little crocodile
+Improve his shining tail,
+And pour the waters of the Nile
+On every golden scale.
+
+How cheerfully he seems to grin
+And neatly spreads his claws
+And welcome little fishes in
+With gently smiling jaws.
 
 How doth the little crocodile
-Improve his shining tail
-...
+Improve his shining tail,
+And pour the waters of the Nile
+On every golden scale.
 
 {% include wo_nav.html %}
