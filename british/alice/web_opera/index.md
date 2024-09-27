@@ -47,3 +47,4 @@ published on IMSLP. Typos and other corrections can be directed to the Archive's
 * [Dialogue](aiw04d.html)
 * [No. 5](aiw05.html) - "Cheshire Puss, My Thanks To Thee"
 * [Dialogue](aiw05d.html)
+* [No. 6](aiw06.html) - "Couplets and Chorus"
