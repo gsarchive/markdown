@@ -52,6 +52,10 @@ def process(fn):
 		elif m := re.match(r"^([A-Z 0-9,]+(?: and )?[A-Z 0-9,]*) (\([^)]+\.?\)\.?)(.*)$", line, re.M):
 			# eg "PERSON (softly). Lorem ipsum dolor sit amet?"
 			person, style, firstline = m.groups()
+			if len(person) == 1: # Abbreviated form as above eg "A (aside)."
+				person = last_person[person[0]].rstrip(".")
+			else:
+				last_person[person[0]] = person + "."
 			if dlg: data[i] = "\n**" + person + "** *" + style + "* " + firstline.strip() + "\n"
 			else: data[i] = "#### " + person + " *" + style + "*\n" + firstline.strip() + "\n"
 			changes += 1
