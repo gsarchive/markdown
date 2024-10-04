@@ -14,7 +14,7 @@ stylesheet: /styles/web_opera.css
 
 ## No. 3: You Are Old, Father William
 
-[ ![](/layout/images/midi.gif) MIDI file](../midi/aiw03.mid)
+[ ![](/layout/images/midi.gif) MIDI file](../alice/aiw03.mid)
 {:.musiclinks}
 
 ### You Are Old, Father William

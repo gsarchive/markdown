@@ -14,7 +14,7 @@ stylesheet: /styles/web_opera.css
 
 ## No. 4: Speak Roughly to your Little Boy
 
-[ ![](/layout/images/midi.gif) MIDI file](../midi/aiw04.mid)
+[ ![](/layout/images/midi.gif) MIDI file](../alice/aiw04.mid)
 {:.musiclinks}
 
 ### Speak Roughly to your Little Boy

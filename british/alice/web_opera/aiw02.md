@@ -14,7 +14,7 @@ stylesheet: /styles/web_opera.css
 
 ## No. 2: How doth the little crocodile
 
-[ ![](/layout/images/midi.gif) MIDI file](../midi/aiw02.mid)
+[ ![](/layout/images/midi.gif) MIDI file](../alice/aiw02.mid)
 {:.musiclinks}
 
 ### How Doth the Little Crocodile
