@@ -15,6 +15,7 @@ stylesheet: /styles/web_opera.css
 ## No. 5: Cheshire Puss, my thanks to thee
 
 [ ![](/layout/images/midi.gif) MIDI file](../alice/aiw05.mid)
+[ ![](/layout/images/midi_karaoke.gif) Karaoke file](../alice/kar/aiw05.kar)
 {:.musiclinks}
 
 ### Cheshire Puss, my thanks to thee

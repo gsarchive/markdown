@@ -15,6 +15,7 @@ stylesheet: /styles/web_opera.css
 ## No. 1: Opening Chorus
 
 [ ![](/layout/images/midi.gif) MIDI file](../alice/aiw01.mid)
+[ ![](/layout/images/midi_karaoke.gif) Karaoke file](../alice/kar/aiw01.kar)
 {:.musiclinks}
 
 SCENE: *A Forest in Autumn. Alice asleep at foot of tree and Fairies dancing round her.*

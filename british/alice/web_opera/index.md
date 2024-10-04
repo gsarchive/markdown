@@ -17,15 +17,11 @@ stylesheet: /styles/web_opera.css
 ### All the music, lyrics, and dialogue
 ### (eventually!)
 
-<!-- Karaoke files are not currently available. If they are added at some point, they will be
-included here, and the commented-out phrases can be reinstated. -->
-
-Individual MIDI <!-- and Karaoke--> files can be accessed from the pages for the relevant number.
-<!-- Alternatively, complete sets can be downloaded as Zip files: -->
-Alternatively, the complete set can be downloaded as a Zip file:
+Individual MIDI and Karaoke files can be accessed from the pages for the relevant number.
+Alternatively, complete sets can be downloaded as Zip files:
 
 [ ![](/layout/images/midi.gif) MIDI files](../alice/alice_midi.zip)
-<!-- [ ![](/layout/images/midi_karaoke.gif) Karaoke files](../alice/alice_karaoke.zip) -->
+[ ![](/layout/images/midi_karaoke.gif) Karaoke files](../alice/alice_karaoke.zip)
 {:.musiclinks}
 
 The text here has been graciously made available by [Charlie Lovett](https://charlielovett.com/) via his

@@ -15,6 +15,7 @@ stylesheet: /styles/web_opera.css
 ## No. 6: Couplets and chorus
 
 [ ![](/layout/images/midi.gif) MIDI file](../alice/aiw06.mid)
+[ ![](/layout/images/midi_karaoke.gif) Karaoke file](../alice/kar/aiw06.kar)
 {:.musiclinks}
 
 ### So They Say
