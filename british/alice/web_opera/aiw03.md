@@ -36,12 +36,12 @@ Pray what is the reason of that?"
 
 "In my youth," said the sage, as he shook his grey locks,
 "I kept all my limbs very supple
-By use of this ointment, a shilling a box:
+By the use of this ointment, a shilling a box:
 Pray allow me to sell you a couple?
 
 Pray allow me to sell you a couple,
 Pray allow me to sell you a couple,
-By use of this ointment, a shilling a box:
+By the use of this ointment, a shilling a box:
 Pray allow me to sell you a couple?"
 
 **NOTE: Music has DS but no second set of lyrics. Sing again? Different words?**
