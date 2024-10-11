@@ -78,7 +78,7 @@ def process(fn):
 				changes += 1
 				pass
 		if firstline == "need-heading" and data[i].startswith("#### "): firstline = "grab"
-		elif firstline == "grab" and data[i] != "" and data[i].strip() != "&nbsp;" and not data[i].startswith("#"): firstline = data[i].strip()
+		elif firstline == "grab" and data[i].strip() != "" and data[i].strip() != "&nbsp;" and not data[i].startswith("#"): firstline = data[i].strip()
 		if fn.endswith("index.md") and (m := re.match(r"\* \[[^]]+\]\(([^)]+)\)", line)):
 			# We have a link to a file, so we won't need to add more
 			try: del files[m.group(1)]
