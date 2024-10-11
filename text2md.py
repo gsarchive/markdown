@@ -59,6 +59,10 @@ def process(fn):
 			if dlg: data[i] = "\n**" + person + "** *" + style + "* " + firstline.strip() + "\n"
 			else: data[i] = "#### " + person + " *" + style + "*\n" + firstline.strip() + "\n"
 			changes += 1
+		elif m := re.match(r"^([A-Z 0-9,]+):_(.*)$", line, re.M):
+			# eg "QUEEN:_He is the Executioner"
+			data[i] = "#### " + m.group(1) + "\n" + m.group(2) + "\n"
+			changes += 1
 		# Check for any parenthesized sections. These might be actual spoken parentheses, or
 		# they might be stage directions. Since stage directions are more common, and it's
 		# easier to spot italicized text than to notice what ought to be italicized, we make
