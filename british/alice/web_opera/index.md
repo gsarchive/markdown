@@ -44,3 +44,7 @@ published on IMSLP. Typos and other corrections can be directed to the Archive's
 * [No. 5](aiw05.html) - "Cheshire Puss, My Thanks To Thee"
 * [Dialogue](aiw05d.html)
 * [No. 6](aiw06.html) - "Couplets and Chorus"
+* [Dialogue](aiw06d.html)
+* [No. 7](aiw07.html) - Gavotte - "King, Queen, and Knave, Here are we seen"
+* [Dialogue](aiw07d.html)
+* [No. 8](aiw08.html) - Trio and Chorus - "He is the executioner"
