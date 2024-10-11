@@ -41,6 +41,7 @@ stylesheet: /styles/web_opera.css
 **KING.** Hi! Executioner.
 
 **KNAVE.** Here he is.
+
 *Enter EXECUTIONER*
 
 [ ![](/layout/images/midi.gif) MIDI file](../alice/aiw07a.mid)
