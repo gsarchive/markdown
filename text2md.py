@@ -63,6 +63,10 @@ def process(fn):
 			# eg "QUEEN:_He is the Executioner"
 			data[i] = "#### " + m.group(1) + "\n" + m.group(2) + "\n"
 			changes += 1
+		elif line.startswith("*") and line.endswith("*\n") and i and data[i-1] != "\n":
+			# Stage directions need to be separated off into their own paragraphs.
+			data[i] = "\n" + data[i]
+			changes += 1
 		# Check for any parenthesized sections. These might be actual spoken parentheses, or
 		# they might be stage directions. Since stage directions are more common, and it's
 		# easier to spot italicized text than to notice what ought to be italicized, we make
