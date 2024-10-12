@@ -19,7 +19,6 @@ stylesheet: /styles/web_opera.css
 
 *Comes opposite CATERPILLAR.*
 
-
 **CATERPILLAR.** Who are you?
 ALICE: I - I hardly know, Sir, just at present. At least I knew who I was when I got up this morning, but I think I must have been changed several times since then.
 

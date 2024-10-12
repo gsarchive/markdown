@@ -48,3 +48,11 @@ published on IMSLP. Typos and other corrections can be directed to the Archive's
 * [No. 7](aiw07.html) - Gavotte - "King, Queen, and Knave, Here are we seen"
 * [Dialogue](aiw07d.html)
 * [No. 8](aiw08.html) - Trio and Chorus - "He is the executioner"
+* [Dialogue](aiw08d.html)
+* [No. 9](aiw09.html) - Song and Chorus - "Beautiful soup, so rich and green"
+* [Dialogue](aiw09d.html)
+* [No. 10](aiw10.html) - Solo and Chorus - ""Will you walk a little faster,""
+* [Dialogue](aiw10d.html)
+* [No. 11](aiw11.html) - Song - "'Tis the voice of the lobster"
+* [Dialogue](aiw11d.html)
+* [No. 12](aiw12.html) - Finale Act 1 - "But let the Knave take care"

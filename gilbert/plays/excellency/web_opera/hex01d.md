@@ -57,7 +57,7 @@ King.
 **TORTENSSEN.** True. By the way, I suppose it is a commission from the King? That’s not one of
 his Excellency’s practical jokes?
 
-**ERLING.* Nonsense! Now, does that look like a practical joke? Why, I’m to get ten
+**ERLING.** Nonsense! Now, does that look like a practical joke? Why, I’m to get ten
 thousand rix-dollars for it! Now, as you know, I love his daughter Nanna
 devotedly, and she has hitherto treated me with contempt, because, as she says,
 I’m a mere tuppenny-halfpenny stonecutter. Of course, that’s only her humorous

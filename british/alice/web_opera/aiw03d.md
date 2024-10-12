@@ -32,6 +32,7 @@ executed as sure as ferrets are ferrets. Where can I have dropped them I wonder?
 **RABBIT.** Why, Mary Ann, what *are* you doing out here? Run home this moment and fetch me a pair of gloves and a fan. Quick now!
 
 **ALICE** *(aside)* He takes me for his housemaid. How surprised he'll be when he finds out who I am. But I'd better get him his fan and gloves.
+
 *(picks up fan and gloves and gives them to RABBIT)*
 
 **RABBIT.** Thank you, Mary Ann, thank you. Now wait for the Duchess, she's cominng here with the baby and the cook.

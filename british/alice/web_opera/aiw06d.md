@@ -59,6 +59,7 @@ Leave off that, you make me giddy. Off with their heads!
 **KNAVE.** Their heads are off, so please your Majesty.
 
 **QUEEN.** Get to your places!
+
 *KING gives ALICE his hand - KNAVE with QUEEN. Grand Gavotte of Court Cards.*
 
 {% include wo_nav.html %}
