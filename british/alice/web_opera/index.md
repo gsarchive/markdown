@@ -56,3 +56,7 @@ published on IMSLP. Typos and other corrections can be directed to the Archive's
 * [No. 11](aiw11.html) - Song - "'Tis the voice of the lobster"
 * [Dialogue](aiw11d.html)
 * [No. 12](aiw12.html) - Finale Act 1 - "But let the Knave take care"
+* [Dialogue](aiw12d.html)
+* [No. 13](aiw13.html) - "Chess Chorus"
+* [Dialogue](aiw13d.html)
+* [No. 14](aiw14.html) - Song - "Did gyre and gimble in the wabe"

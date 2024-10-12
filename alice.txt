@@ -9,41 +9,6 @@ TODO:
 ACT II "Through the Looking-Glass"
 ==================================
 
-SCENE I - The Looking-Glass
-
-ALICE. How nice it would be if we could only get through into Looking-Glass Land. I'm sure it's got such beautiful things in it. Let's pretend there's a way of getting through it somehow. Let's pretend the glass has got all soft gauze. So that we can get through. Why it's turning into a sort of dimness I declare. It'll be easy enough to get through.
-*Climbs onto mantlepiece, and goes through Looking-glass*
-
-SCENE II - Looking-glass Land. The garden of Live Flowers. Chessmen discovered on stage.
-
-# CHESS CHORUS "Here ranged in due order of battle we stand"
-
-*Dance; at the end of which one of the white pawns falls down, and the WHITE QUEEN rushes to her to pick her up, knocking the WHITE KING down in her haste.*
-
-*WHITE KING and QUEEN on floor. Enter ALICE.*
-ALICE. Why the chessmen are walking about!
-WHITE QUEEN. My Precious Lily! My Imperial kitten! *tries to get up*
-WHITE KING (sitting up and rubbing his nose). Imperial fiddlestick.
-*ALICE lifts WHITE QUEEN up to a standing position; also the pawn*
-WHITE QUEEN (to KING). Mind the Volcano!
-WHITE KING. What Volcano?
-WHITE QUEEN. It blew me up onto my legs. Mind you get up in the regular way, don't get blown up!
-<-- I think Paramount would agree that kings ought not to be blown up. -->
-ALICE (lifting the KING up). Why you'll be hours and hours getting up at that rate. *(the KING is struggling to rise)* I'd far better help you! Hadn't I? *(helps the KING up hastily and dusts him. He makes faces.)* Oh please don't make such faces, my dear! You make me laugh so that I can hardly hold you. And don't keep your mouth so wide open! All the dust will get into it! There, now I think you're tidy. *(Holds the KING upright; the moment she lets him go he falls flat on his back.)* Oh! he's fainted.
-WHITE KING (to QUEEN). I assure you, my dear, I turned cold to the very ends of my whiskers!
-WHITE QUEEN. You haven't got any whiskers?
-WHITE KING. The horror of that moment I shall never, *never* forget!
-WHITE QUEEN. You will though, if you don't make a memorandum of it?
-*KING gets up, takes out memorandum book, and tries to write. ALICE takes hold of his hand and pencil and helps him.*
-WHITE KING. My dear, I really must get a thinner pencil! I can't manage this one a bit - it writes all manner of things I don't intend.
-WHITE QUEEN (taking it). What manner of things? *That's* not a memorandum of your feelings! *(to ALICE)* Here, you read it, or sing it?
-ALICE. Dear me! It's all in some language I don't know.
-WHITE QUEEN (to WHITE KNIGHT). Then you read it!
-
-# SONG - "Jabberwocky"
-
-*All rush off. ALICE alone.*
-
 ALICE. Dear me I wish they had stayed! *(To LILY)* Oh Tiger-Lily, I wish you could talk?
 LILY. We *can* talk, when there's anybody worth talking to!
 A (almost in a whisper). And can *all* the flowers talk?
@@ -51,7 +16,7 @@ L. As well as *you* can and a great deal louder.
 ROSE. It isn't manners for us to begin, you know, and really was wondering when you'd speak. <!-- Now let me see... Yes, yes! Don't speak until you're spoken to! --> Said I to myself, "her face has got some sense in it, though it's not a clever one." Still you're the right colour and that goes a long way.
 L. I don't care about the colour! If only her petals curled up a little more she'd be all right!
 A. Aren't you sometimes frightened at being planted out here with nobody to take care of you?
-R. There's a tree, what else is it good for? <-- When she found that he was fickle was her great oak tree -->
+R. There's a tree, what else is it good for? <!-- When she found that he was fickle was her great oak tree -->
 A. But what could it do if any danger came?
 R. It could bark. It says "Bough-wough", and that's why its branches are called boughs.
 A. How is it that you can talk so nicely? I've been in many gardens before but none of the flowers could talk!
@@ -356,51 +321,6 @@ Songs from Chapter IV
 Hare. That poor hatter's very bad.
 All. So they say, so they say
 -- alternates with "all" on those lines
-
-## Executioner
-He is the executioner and he thinks it very odd he
-Is asked ot cut a head off when it hasn't got a body.
-rpt
-Of old my executioner indubitably said he'd
-Be sure a thing that had a head could always be be headed.
-rpt
-With all this idle argument my temper isn't suited
-If something isn't done at once you'll all be executed
-rpt [we shall be x]
-
-## Not guilty
-Al. Not guilty I declare,
-But let the Knave take care
-In future not to steal the tempting tarts
-K. Not guilty, then I fear
-You cannot now, my dear,
-Behead for stealing that bad Knave of Hearts
-Q. Not guilty! Oh, it's shocking,
-Miss Alice must be mocking,
-Don't tell me that the tarts themselves ran off,
-  and left the shelf
-A. Yes, that's the view I've taken,
-If your nerves, my dear, are shaken,
-I would venture to advise you just to execute yourself.
-ALL. It's very hard upon the Qeuen of Hearts
-Who vowed the Knave stole tarts;
-To find that Knave by verdict of our friend
-Not guilty in the end.
-Not guilty we declare.
-But let the knave take care,
-In futre from the tarts to keep his hand.
-Nt guilty! now we know
-Why these strange things are so
-And why our Alice came to Wonderland.
-
-# Opening A2
-
-Here ranged in due or der of battle we stand,
-With red king and white king and queens on each hand;
-The bishops move sideways to aid in the fight,
-And see how erratic the course of the knight;
-The pawns are our privates and both wings to guard,
-The four sturdy castles keep due watch and ward.
 
 # Humpty Dumpty
 
