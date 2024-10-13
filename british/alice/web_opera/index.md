@@ -60,3 +60,21 @@ published on IMSLP. Typos and other corrections can be directed to the Archive's
 * [No. 13](aiw13.html) - "Chess Chorus"
 * [Dialogue](aiw13d.html)
 * [No. 14](aiw14.html) - Song - "Did gyre and gimble in the wabe"
+* [Dialogue](aiw14d.html)
+* [No. 15](aiw15.html) - Duet - "Tweedle Dum and Tweedle Dee"
+* [Dialogue](aiw15d.html)
+* [No. 16](aiw16.html) - Trio - "Here we go round the Mulberry bush"
+* [Dialogue](aiw16d.html)
+* [No. 17](aiw17.html) - Trio - "The Carpenter is sleeping"
+* [Dialogue](aiw17d.html)
+* [No. 18](aiw18.html) - Song - "Humpty Dumpty sat on a wall"
+* [Dialogue](aiw18d.html)
+* [No. 19](aiw19.html) - Chorus - "Humpty Dumpty's fallen down"
+* [Dialogue](aiw19d.html)
+* [No. 20](aiw20.html) - Chorus - "The Lion and the Unicorn were fighting for the Crown"
+* [No. 21](aiw21.html) - Hatter - "When the wind is in the East"
+* [Dialogue](aiw21d.html)
+* [No. 22](aiw22.html) - Hatter - "Sound the festal trumpets, set the bells aringing"
+* [Dialogue](aiw22d.html)
+* [No. 23](aiw23.html) - Chorus - "Alice's health, Long life and wealth"
+* [Dialogue](aiw23d.html)
