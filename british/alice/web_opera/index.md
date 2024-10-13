@@ -15,7 +15,6 @@ stylesheet: /styles/web_opera.css
 ## WEB OPERA
 
 ### All the music, lyrics, and dialogue
-### (eventually!)
 
 Individual MIDI and Karaoke files can be accessed from the pages for the relevant number.
 Alternatively, complete sets can be downloaded as Zip files:
@@ -28,6 +27,11 @@ The text here has been graciously made available by [Charlie Lovett](https://cha
 book, "Alice on Stage". These pages approximately follow the text from the 1886 publication. Song lyrics
 are from the [1896 music score](https://imslp.org/wiki/Alice_in_Wonderland_%28Slaughter%2C_Walter%29) as
 published on IMSLP. Typos and other corrections can be directed to the Archive's curators.
+
+NOTE: The libretto and music score do not entirely correspond. Finding a matched pair of libretto and
+score would be extremely helpful if anyone can offer one for transcription! There are also two songs
+where the score indicates repetition, but only has words for the first time, and thus the second is
+absent.
 
 -----
 
