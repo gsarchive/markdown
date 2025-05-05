@@ -80,8 +80,8 @@ surrenders to her Prince.
   - [Polka](../dance_arr/pi_polka.pdf) (arr. P. Bucalossi)
   - [Quadrille](../dance_arr/pi_quad.pdf) (arr. P. Bucalossi)
   - [Waltz](../dance_arr/pi_waltz.pdf) (arr. P. Bucalossi)
-* [**Discography:**](http://gasdisc.oakapplepress.com/ida.htm) Marc Shepherd's Princess Ida Discography
-* [**A historical overview of Ida recordings**](http://gasdisc.oakapplepress.com/ida-walt1.htm) through the years,
+* [**Discography:**](https://oakapplepress.net/gasdisc/ida.htm) Marc Shepherd's Princess Ida Discography
+* [**A historical overview of Ida recordings**](https://oakapplepress.net/gasdisc/ida-walt1.htm) through the years,
   by the late Michael Walters.
 
 </article>
