@@ -24,6 +24,7 @@ toc, links, trail, crumbs = { }, { }, { }, { }
 # TODO: Move this into config.yml and deduplicate the URL
 links["gilbert/plays/excellency"] = "[His Excellency](/gilbert/plays/excellency/his_excellency.html)"
 links["british/alice"] = "[Alice in Wonderland](/british/alice/index.html)"
+links["ruddigore"] = "[Ruddigore](/ruddigore/html/rg_home.html)"
 # Note that you can customize the breadcrumb for a page independently of its title using frontmatter "breadcrumb: Short Title"
 wo_nav = {"lastpage": { }, "lastsong": { }, "nextsong": { }, "nextpage": { }}
 for root, dirs, files in os.walk("."):

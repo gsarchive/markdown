@@ -2,6 +2,7 @@
 title: Ruddygore - Review from Pall Mall Budget
 description: Review from "Pall Mall Budget" of the opening of Ruddygore
 keywords: sullivan, gilbert, ruddigore, ruddygore
+parent: ..
 ---
 
 {% include breadcrumbs.html %}
