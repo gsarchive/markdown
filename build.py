@@ -3,6 +3,7 @@
 # all filenames are ASCII. It's sad to have to say that in 2022, but
 # the G&S Archive doesn't seem to have Python 3 installed.
 import json
+import hashlib
 import os.path
 import subprocess
 import sys
@@ -84,6 +85,12 @@ with open("_data/wo_nav.json", "w", encoding="utf-8") as f:
 subprocess.call(["bundle", "exec", "jekyll", "build"])
 
 # Move files from _site to ../public_html
+# We retain a last-seen hash of each file and skip copying if the file hasn't changed.
+# Delete filehash.json to force a full rebuild, which may be slow.
+try:
+	with open("filehash.json") as f: hashes = json.load(f)
+except FileNotFoundError:
+	hashes = {}
 
 for root, dirs, files in os.walk("_site"):
 	origin = root
@@ -91,11 +98,12 @@ for root, dirs, files in os.walk("_site"):
 	dest = destdir + root#.removeprefix("_site")
 	try: os.mkdir(dest)
 	except OSError: pass # TODO: Only ignore "file exists"
-	print(root)
+	copied_any = False
 	for file in files:
 		# See if the file has a marker sending it elsewhere
 		destname = file
-		with open(origin + "/" + file, encoding="utf-8") as f: data = f.read()
+		with open(origin + "/" + file, "rb") as f: raw = f.read()
+		data = raw.decode("utf-8")
 		for line in data.split("\n", 5)[:5]: # Scan the first five lines, max, for a "target" marker
 			_, target, fn = line.partition("MD TARGET:")
 			if target:
@@ -103,6 +111,17 @@ for root, dirs, files in os.walk("_site"):
 				# (Note that it would have to remove "*/" too, for CSS files)
 				destname = fn.rsplit("-->", 1)[0].strip()
 				break
+		# Note that the lookup key is the destination name, not the source.
+		# This means that renaming the file will cause a recopy if and only if
+		# the destination changes. Normally this is going to happen when the
+		# source changes, but for safety's sake, we check the dest.
+		hash = hashlib.sha1(raw).hexdigest()
+		if hash == hashes.get(dest + "/" + destname):
+			continue
+		if not copied_any:
+			copied_any = True
+			print(root) # Only print out the directory name if we're copying at least one file
+		hashes[dest + "/" + destname] = hash
 		# If possible, try to move the file. Way quicker, and atomic,
 		# but needs the staging area and destination to be on the same
 		# file system - NOT one of them being an SSHFS mount.
@@ -110,15 +129,10 @@ for root, dirs, files in os.walk("_site"):
 			os.rename(origin + "/" + file, dest + "/" + destname)
 			continue
 		except OSError: pass
-		# TODO: Stat the files to see if they've changed, rather than
-		# relying on a (slow) content comparison
-		try:
-			with open(dest + "/" + destname, encoding="utf-8") as f:
-				if data == f.read(): continue # Not changed, don't overwrite
-		except IOError as e: # FileNotFoundError
-			if e.errno != 2: raise
 		with open(dest + "/" + destname, "w", encoding="utf-8") as f:
 			f.write(data)
+
+with open("filehash.json", "w") as f: json.dump(hashes, f)
 
 # For the benefit of local testing, allow some quick copy-in cloning from live.
 if destdir != "../live" and os.path.exists("../live"):
