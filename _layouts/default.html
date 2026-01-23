@@ -17,9 +17,9 @@
 <link href="{{ page.stylesheet | default: "/styles/markdown.css" }}" rel="stylesheet">
 <script src="/gsarchive.js" type=module></script>
 </head>
-<body>
+<body style="background: {{ page.background | default: "#003333 url(howarth_images/bkg01.jpg)"}}">
 <div class="masthead">Gilbert and Sullivan Archive</div><br>
-<main>
+<main class="{{ page.mainstyle | default: "" }}">
 {{ content }}
 
 <footer>
